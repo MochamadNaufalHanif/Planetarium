@@ -1,0 +1,171 @@
+{
+  "quiz_title": "Kuis Tata Surya",
+  "option_word": ["A", "B", "C", "D"],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Planet manakah yang terkenal dengan Bintik Merah Raksasa-nya (Great Red Spot)?",
+      "options": [
+        "Jupiter",
+        "Saturnus",
+        "Mars",
+        "Neptunus"
+      ],
+      "correct_answer": "Jupiter"
+    },
+    {
+      "id": 2,
+      "question": "Planet manakah yang paling dekat dengan Matahari?",
+      "options": [
+        "Merkurius",
+        "Neptunus",
+        "Venus",
+        "Uranus"
+      ],
+      "correct_answer": "Merkurius"
+    },
+    {
+      "id": 3,
+      "question": "Planet apakah yang berwarna merah?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Venus",
+        "Neptunus"
+      ],
+      "correct_answer": "Mars"
+    },
+    {
+      "id": 4,
+      "question": "Planet terbesar di tata surya adalah?",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Bumi"
+      ],
+      "correct_answer": "Jupiter"
+    },
+    {
+      "id": 5,
+      "question": "Planet terdingin di tata surya?",
+      "options": [
+        "Uranus",
+        "Mars",
+        "Jupiter",
+        "Bumi"
+      ],
+      "correct_answer": "Uranus"
+    },
+    {
+      "id": 6,
+      "question": "Planet yang sering disebut 'kembaran Bumi' karena ukurannya hampir sama?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Uranus",
+        "Bumi"
+      ],
+      "correct_answer": "Venus"
+    },
+    {
+      "id": 7,
+      "question": "Planet ke-6 dari Matahari?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Saturnus",
+        "Uranus"
+      ],
+      "correct_answer": "Saturnus"
+    },
+    {
+      "id": 8,
+      "question": "Planet dengan satelit bernama Phobos dan Deimos?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Saturnus",
+        "Uranus"
+      ],
+      "correct_answer": "Mars"
+    },
+    {
+      "id": 9,
+      "question": "Planet yang kadang disebut 'Permata Tata Surya' karena cincinnya yang indah?",
+      "options": [
+        "Saturnus",
+        "Jupiter",
+        "Uranus",
+        "Mars"
+      ],
+      "correct_answer": "Saturnus"
+    },
+    {
+      "id": 10,
+      "question": "Planet keeempat dari Matahari?",
+      "options": [
+        "Mars",
+        "Saturnus",
+        "Jupiter",
+        "Uranus"
+      ],
+      "correct_answer": "Mars"
+    },
+    {
+      "id": 11,
+      "question": "Bumi memiliki satelit alami bernama?",
+      "options": [
+        "Bulan",
+        "Europa",
+        "Titan",
+        "Ganon"
+      ],
+      "correct_answer": "Bulan"
+    },
+    {
+      "id": 12,
+      "question": "Planet dengan suhu terpanas adalah",
+      "options": [
+        "Venus",
+        "Merkurius",
+        "Bumi",
+        "Mars"
+      ],
+      "correct_answer": "Venus"
+    },
+    {
+      "id": 13,
+      "question": "Planet yang punya cincin tipis selain Saturnus adalah",
+      "options": [
+        "Uranus",
+        "Merkurius",
+        "Bumi",
+        "Venus"
+      ],
+      "correct_answer": "Uranus"
+    },
+    {
+      "id": 14,
+      "question": "Berapa jumlah planet di tata surya setelah Pluto tidak dianggap planet?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "correct_answer": "8"
+    },
+    {
+      "id": 15,
+      "question": "Planet paling jauh dari matahari adalah?",
+      "options": [
+        "Neptunus",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "correct_answer": "Neptunus"
+    }
+  ]
+}
