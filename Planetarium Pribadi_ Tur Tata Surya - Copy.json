@@ -1491,14 +1491,6 @@
         "userAdded": false
       },
       {
-        "file": "../../Downloads/Rectangle 97.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Downloads\\Rectangle 97.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "../../Downloads/Group 244.png",
         "kind": "image",
         "metadata": "",
@@ -2483,22 +2475,6 @@
         "userAdded": false
       },
       {
-        "file": "../../../Downloads/Rectangle 101.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\Rectangle 101.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Downloads/Rectangle 102.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\Rectangle 102.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "../../../Downloads/Ellipse 78.png",
         "kind": "image",
         "metadata": "",
@@ -2511,14 +2487,6 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\Downloads\\Group 208.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Downloads/Rectangle 97 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\Rectangle 97 (1).png",
         "smoothed": false,
         "userAdded": false
       },
@@ -2703,6 +2671,310 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\Downloads\\Group 55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 52 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 52 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Unnamed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Unnamed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Group 52 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Group 52 (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Kini kamu resmi mendapat gelar Penjelajah Antariksa dengan Lencana Antariksa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Kini kamu resmi mendapat gelar Penjelajah Antariksa dengan Lencana Antariksa.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Misi selesai, Astronot Muda! Kamu berhasil menjelajahi tata surya, mengenal planet-planet, dan lulus ujian luar angkasa..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Misi selesai, Astronot Muda! Kamu berhasil menjelajahi tata surya, mengenal planet-planet, dan lulus ujian luar angkasa..png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Group 182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Group 182.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Group 182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Group 182",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 182 (Custom).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 182 (Custom).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 208.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 154 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 154 - Copy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 209.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 182.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Group 181.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Group 181.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/Star 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Star 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Star 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Star 13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 314 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 314 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 181.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 181.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Kini kamu resmi mendapat gelar Penjelajah Antariksa dengan Lencana Antariksa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Kini kamu resmi mendapat gelar Penjelajah Antariksa dengan Lencana Antariksa.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Misi selesai, Astronot Muda! Kamu berhasil menjelajahi tata surya, mengenal planet-planet, dan lulus ujian luar angkasa..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Misi selesai, Astronot Muda! Kamu berhasil menjelajahi tata surya, mengenal planet-planet, dan lulus ujian luar angkasa..png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 91.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Rectangle 97 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Mantap! Kamu sudah mengenal wajah planet-planet. Perjalananmu baru saja dimulai!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Mantap! Kamu sudah mengenal wajah planet-planet. Perjalananmu baru saja dimulai!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Astronot, sekarang waktunya misi yang lebih menantang! ketuk pilihan babak.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Astronot, sekarang waktunya misi yang lebih menantang! ketuk pilihan babak.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Selamat kamu membuka babak 2, Astronot!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Selamat kamu membuka babak 2, Astronot!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Selamat datang di perjalanan pertamamu, Astronot Muda!  .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Selamat datang di perjalanan pertamamu, Astronot Muda!  .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Tugasmu tugas pertama mu adalah mengenal nama dan bentuk planet di tata surya. Siap berangkat_.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Tugasmu tugas pertama mu adalah mengenal nama dan bentuk planet di tata surya. Siap berangkat_.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Ketuk nama planet untuk berangkat!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Ketuk nama planet untuk berangkat!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 52.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Group 55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_Eduspace/PlanetariumPribadiTurTataSurya/Luar biasa! Kamu menjawab dengan tepat!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Luar biasa! Kamu menjawab dengan tepat!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_",
         "smoothed": false,
         "userAdded": false
       }
@@ -3521,7 +3793,24 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 5,
+          "LoopDuration": 2,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3677,6 +3966,11 @@
     },
     {
       "name": "PlanetMisteriusSudah",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "DapatLencana",
       "type": "boolean",
       "value": false
     }
@@ -4010,6 +4304,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -4134,6 +4432,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -4175,7 +4477,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000053,
+        "zoomFactor": 0.4335774304702418,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4290,8 +4592,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "Penghargaan",
+          "locked": true,
           "name": "BoardPenghargaan",
           "persistentUuid": "3f0e22ab-ed48-409b-ae3a-1a5b79f49e23",
+          "sealed": true,
           "width": 0,
           "x": 207.5,
           "y": -620,
@@ -4344,7 +4648,7 @@
           "persistentUuid": "39acb12a-7663-4e92-8785-989516e061e6",
           "width": 78,
           "x": 990,
-          "y": -550,
+          "y": -549,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -4380,6 +4684,40 @@
           "x": 647,
           "y": -207,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 436,
+          "keepRatio": true,
+          "layer": "Penghargaan",
+          "name": "Lencana",
+          "opacity": 0,
+          "persistentUuid": "56dc89e6-554c-4b4a-9728-c9ed8e0f4cfb",
+          "width": 452,
+          "x": 420,
+          "y": -549,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "_",
+          "persistentUuid": "24f9a146-a548-46a8-848e-183cfb64ef03",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5449,6 +5787,178 @@
           "content": {
             "IsChecked": false
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lencana",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 5,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 314 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 489,
+                            "y": 8
+                          },
+                          {
+                            "x": 489,
+                            "y": 485
+                          },
+                          {
+                            "x": 10,
+                            "y": 485
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "_",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "_",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "_",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5465,6 +5975,9 @@
               },
               {
                 "objectName": "Btn_ClosePenghargaan"
+              },
+              {
+                "objectName": "Lencana"
               }
             ]
           },
@@ -5490,6 +6003,9 @@
           },
           {
             "objectName": "Unnamed"
+          },
+          {
+            "objectName": "_"
           },
           {
             "objectName": "Title"
@@ -5525,6 +6041,130 @@
                 "",
                 "\"BlurBG\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "_",
+                "Tween",
+                "\"\"",
+                "0",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "no",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -6278,6 +6918,20 @@
                         "0.25",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Lencana",
+                        "Tween",
+                        "\"Muncul\"",
+                        "125",
+                        "\"easeOutQuart\"",
+                        "0.25",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -6411,6 +7065,37 @@
                     "Btn_Penghargaan",
                     "ButtonFSM",
                     "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "DapatLencana",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Lencana",
+                    "Tween",
+                    "\"\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
                   ]
                 }
               ]
@@ -9508,6 +10193,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -9696,7 +10385,7 @@
           "width": 0,
           "x": 560,
           "y": 200,
-          "zOrder": 5,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9724,7 +10413,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Salah",
+          "name": "Salah_Benar",
           "opacity": 0,
           "persistentUuid": "c3c5ffb6-9ca4-4108-b4ae-f947f81ae89d",
           "width": 0,
@@ -9936,9 +10625,41 @@
           "name": "NewSprite",
           "persistentUuid": "c6096466-0ffa-4fd8-84a3-0c14ffcb4fb3",
           "width": 0,
-          "x": 0,
-          "y": 0,
+          "x": 1,
+          "y": -5,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BubleMessage",
+          "persistentUuid": "79514da7-262c-4b2b-aa00-9269de8b1500",
+          "width": 0,
+          "x": 527,
+          "y": -269,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialog",
+          "persistentUuid": "a3bd0f7d-9dab-4fb2-aa33-005dd31789fa",
+          "width": 0,
+          "x": 592,
+          "y": -239,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10717,6 +11438,58 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 0.9,
+              "RightwardSpeed": 0.9,
+              "UpwardSpeed": 0.9,
+              "DownwardSpeed": 0.9,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 2.0247e-320,
+              "LogRightwardSpeed": 2.0247e-320,
+              "LogDownwardSpeed": 2.0247e-320,
+              "LogUpwardSpeed": 2.0247e-320,
+              "DelayedCenterX": 2.0247e-320,
+              "DelayedCenterY": 2.0247e-320,
+              "ForecastHistoryMeanX": 2.0247e-320,
+              "ForecastHistoryMeanY": 2.0247e-320,
+              "ForecastHistoryVarianceX": 2.0247e-320,
+              "ForecastHistoryCovariance": 2.0247e-320,
+              "ForecastHistoryLinearA": 2.0247e-320,
+              "ForecastHistoryLinearB": 2.0247e-320,
+              "ForecastedX": 2.0247e-320,
+              "ForecastedY": 2.0247e-320,
+              "ProjectedNewestX": 2.0247e-320,
+              "ProjectedNewestY": 2.0247e-320,
+              "ProjectedOldestX": 2.0247e-320,
+              "ProjectedOldestY": 2.0247e-320,
+              "ForecastHistoryVarianceY": 2.0247e-320,
+              "Index": 2.0247e-320,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 2.0247e-320,
+              "WaitingSpeedXMax": 2.0247e-320,
+              "WaitingSpeedYMax": 2.0247e-320,
+              "WaitingEnd": 2.0247e-320,
+              "CameraDelayCatchUpDuration": 2.0247e-320,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000.000000007454,
+              "OldY": 9000.000000007454,
+              "IsCalledManually": false
+            },
+            {
               "name": "Sway",
               "type": "Sway::Sway",
               "Scale": "Scale",
@@ -11311,6 +12084,10 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "content": {
@@ -11320,7 +12097,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Salah",
+          "name": "Salah_Benar",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11328,7 +12105,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Salah",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -11338,6 +12115,54 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Waktu terus berjalan! Fokus, Astronot!.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 550,
+                            "y": 0
+                          },
+                          {
+                            "x": 550,
+                            "y": 148
+                          },
+                          {
+                            "x": 1,
+                            "y": 148
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Benar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Luar biasa! Kamu menjawab dengan tepat!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11442,6 +12267,398 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Dialog",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 143
+                          },
+                          {
+                            "x": 55,
+                            "y": 143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 143
+                          },
+                          {
+                            "x": 55,
+                            "y": 143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BubleMessage",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 509,
+                            "y": 0
+                          },
+                          {
+                            "x": 509,
+                            "y": 244
+                          },
+                          {
+                            "x": 0,
+                            "y": 244
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BtnKembali",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 5,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 91.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 75,
+                            "y": 90
+                          },
+                          {
+                            "x": 424,
+                            "y": 90
+                          },
+                          {
+                            "x": 424,
+                            "y": 192
+                          },
+                          {
+                            "x": 75,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BtnLanjutkan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 5,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 52 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 94,
+                            "y": 90
+                          },
+                          {
+                            "x": 443,
+                            "y": 90
+                          },
+                          {
+                            "x": 443,
+                            "y": 192
+                          },
+                          {
+                            "x": 94,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11472,16 +12689,28 @@
             "objectName": "txtJawaban"
           },
           {
-            "objectName": "Salah"
+            "objectName": "Salah_Benar"
           },
           {
             "objectName": "ABCD"
+          },
+          {
+            "objectName": "BtnKembali"
+          },
+          {
+            "objectName": "BtnLanjutkan"
           },
           {
             "objectName": "PilihanJawaban"
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Dialog"
+          },
+          {
+            "objectName": "BubleMessage"
           }
         ]
       },
@@ -11508,6 +12737,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "RoketQuiz",
+                    "SmoothCamera",
+                    "no"
+                  ]
+                },
                 {
                   "type": {
                     "value": "JSONResourceLoader::LoadJSONToScene"
@@ -11544,6 +12783,17 @@
                     "",
                     "Quiz_DataJSON.questions",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Animation",
+                    "=",
+                    "Random(1)"
                   ]
                 },
                 {
@@ -11868,6 +13118,133 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Muncul\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Keluar\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Keluar\"",
+                    "585",
+                    "-345",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Keluar\"",
+                    "605",
+                    "-285",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Robot",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
@@ -11929,7 +13306,7 @@
                     "value": "OpacityCapability::OpacityBehavior::SetValue"
                   },
                   "parameters": [
-                    "Salah",
+                    "Salah_Benar",
                     "Opacity",
                     "=",
                     "255"
@@ -11948,7 +13325,7 @@
                     "value": "OpacityCapability::OpacityBehavior::SetValue"
                   },
                   "parameters": [
-                    "Salah",
+                    "Salah_Benar",
                     "Opacity",
                     "=",
                     "0"
@@ -12304,6 +13681,276 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "JumlahBenar",
+                    "Animation",
+                    "=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "txtQuestions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "txtJawaban",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ABCD",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "KotakPertanyaan",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "PilihanJawaban",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "RoketQuiz",
+                    "Tween",
+                    "\"\"",
+                    "-500",
+                    "\"easeOutQuint\"",
+                    "2.25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Robot",
+                    "-55",
+                    "720",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\"",
+                    "360",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Masuk\"",
+                    "280",
+                    "145",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Masuk\"",
+                    "340",
+                    "170",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnKembali",
+                    "350",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnLanjutkan",
+                    "750",
+                    "450",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnKembali",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnLanjutkan",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LoadingRoketNaik\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TerbangKe___",
+                    "=",
+                    "\"PlanetMisterius\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -12352,6 +13999,21 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TimerPaused"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\""
+                  ]
+                }
+              ],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12412,7 +14074,7 @@
                   "parameters": [
                     "Menit",
                     "=",
-                    "2"
+                    "1"
                   ]
                 },
                 {
@@ -12694,6 +14356,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
           "name": "Sway",
           "type": "Sway::Sway"
         },
@@ -12730,7 +14396,28 @@
         "zoomFactor": 0.4633111824513987,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "button",
+          "objects": [
+            {
+              "name": "Btn_Babak1"
+            },
+            {
+              "name": "Btn_Mulai"
+            },
+            {
+              "name": "Btn_Babak2"
+            },
+            {
+              "name": "Btn_Babak3"
+            },
+            {
+              "name": "Btn_BabakMisterius"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "KlikTombol1",
@@ -14227,7 +15914,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Downloads\\Rectangle 97.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14247,11 +15934,11 @@
                             "y": 0
                           },
                           {
-                            "x": 508,
+                            "x": 509,
                             "y": 0
                           },
                           {
-                            "x": 508,
+                            "x": 509,
                             "y": 244
                           },
                           {
@@ -14366,22 +16053,11 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "Babak3Sudah",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Btn_Babak1",
-                "ButtonFSM",
-                ""
+                "",
+                "\"\""
               ]
             },
             {
@@ -14557,6 +16233,62 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "button",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "<",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "button",
+                "ButtonFSM",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -14695,10 +16427,104 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
+                    "Babak2Sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_Babak3",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Btn_Babak3",
+                    "Animation",
+                    "=",
+                    "\"!DiKlik/Terbuka\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Babak3Sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_BabakMisterius",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Btn_BabakMisterius",
+                    "Animation",
+                    "=",
+                    "\"!DiKlik\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
                     "Babak3Sudah",
                     "=",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -14753,7 +16579,7 @@
                       "parameters": [
                         "Ceklis",
                         "Btn_Babak1",
-                        "70",
+                        "100",
                         "0"
                       ]
                     }
@@ -14801,7 +16627,55 @@
                       "parameters": [
                         "Ceklis",
                         "Btn_Babak2",
-                        "70",
+                        "110",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Ceklis",
+                        "SudahSelesai",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Babak3Sudah",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Ceklis",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Ceklis",
+                        "Btn_Babak3",
+                        "110",
                         "0"
                       ]
                     }
@@ -15176,13 +17050,12 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
                     "Btn_Babak2",
                     "Animation",
-                    "=",
+                    "!=",
                     "\"Terkunci\""
                   ]
                 }
@@ -15478,8 +17351,8 @@
                   "parameters": [
                     "Btn_Babak3",
                     "Animation",
-                    "=",
-                    "\"!DiKlik/Terbuka\""
+                    "!=",
+                    "\"Terkunci\""
                   ]
                 }
               ],
@@ -15493,48 +17366,19 @@
                     "Toggle",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "Btn_Babak3.Animation::Name()",
+                    "\"info\"",
+                    ""
+                  ]
                 }
               ],
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanVariable"
-                      },
-                      "parameters": [
-                        "KlikTombol3",
-                        "False",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Btn_Babak3",
-                        "Animation",
-                        "=",
-                        "\"!DiKlik/Terbuka\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Btn_Mulai",
-                        "Animation",
-                        "=",
-                        "\"BelumPilih\""
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -15571,12 +17415,112 @@
                         "=",
                         "\"SudahPilih\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_Babak1",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_Babak2",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_BabakMisterius",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "KlikTombol3",
+                        "False",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Btn_Babak3",
+                        "Animation",
+                        "=",
+                        "\"!DiKlik/Terbuka\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Btn_Mulai",
+                        "Animation",
+                        "=",
+                        "\"BelumPilih\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_Babak1",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_Babak2",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Btn_BabakMisterius",
+                        "ButtonFSM",
+                        ""
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15602,40 +17546,10 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_Babak1",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_Babak2",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_BabakMisterius",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15661,38 +17575,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_Babak1",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_Babak2",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Btn_BabakMisterius",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15731,6 +17614,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "Btn_Babak3.Animation::Name()",
+                    "\"info\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -16115,7 +18008,7 @@
           "isLocked": false,
           "name": "Dialog",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -19554,7 +21447,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Rectangle 97 (1).png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19620,7 +21513,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Mantap! Kamu sudah mengenal wajah planet-planet. Perjalananmu baru saja dimulai!",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Mantap! Kamu sudah mengenal wajah planet-planet. Perjalananmu baru saja dimulai!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19637,19 +21530,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19669,7 +21562,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Astronot, sekarang waktunya misi yang lebih menantang! ketuk pilihan babak2",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Astronot, sekarang waktunya misi yang lebih menantang! ketuk pilihan babak.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19686,19 +21579,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19718,7 +21611,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Selamat kamu membuka babak 2, Astronot!2",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Selamat kamu membuka babak 2, Astronot!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19735,19 +21628,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19767,7 +21660,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Selamat datang di perjalanan pertamamu, Astronot Muda!1",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Selamat datang di perjalanan pertamamu, Astronot Muda!  .png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19784,19 +21677,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19816,7 +21709,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Tugasmu tugas pertama mu adalah mengenal nama dan bentuk planet di tata surya. Siap berangkat_",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Tugasmu tugas pertama mu adalah mengenal nama dan bentuk planet di tata surya. Siap berangkat_.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19833,19 +21726,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19865,7 +21758,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Ketuk nama planet untuk berangkat!2",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Ketuk nama planet untuk berangkat!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19882,19 +21775,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 19
+                            "y": 1
                           },
                           {
                             "x": 402,
-                            "y": 124
+                            "y": 106
                           },
                           {
                             "x": 0,
-                            "y": 124
+                            "y": 106
                           }
                         ]
                       ]
@@ -19955,7 +21848,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Group 52.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 52.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20096,6 +21989,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Ceklis",
+                "EllipseMovement",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "EnableLayerEffect"
@@ -22063,8 +23966,28 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "BtnPilihanBabak",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -30388,7 +32311,7 @@
           "persistentUuid": "093a15ac-5cbc-4ff5-be85-5372d521d191",
           "width": 0,
           "x": 265,
-          "y": 125,
+          "y": -500,
           "zOrder": 1072,
           "numberProperties": [],
           "stringProperties": [],
@@ -33217,7 +35140,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Rectangle 97 (1).png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -33673,7 +35596,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Group 55.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 55.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -33703,6 +35626,96 @@
                           {
                             "x": 94,
                             "y": 335
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BtnPilihanBabak",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 52.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 94,
+                            "y": 90
+                          },
+                          {
+                            "x": 443,
+                            "y": 90
+                          },
+                          {
+                            "x": 443,
+                            "y": 192
+                          },
+                          {
+                            "x": 94,
+                            "y": 192
                           }
                         ]
                       ]
@@ -33794,6 +35807,9 @@
           },
           {
             "objectName": "IkonBabak3"
+          },
+          {
+            "objectName": "BtnPilihanBabak"
           }
         ]
       },
@@ -33811,17 +35827,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "IkonBabak3",
-                "Scale",
-                "=",
-                "0"
-              ]
-            },
             {
               "type": {
                 "value": "EnableLayerEffect"
@@ -34001,6 +36006,71 @@
                 "\"easeOutQuad\"",
                 "2",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"WaktuMulai\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"WaktuMulai\"",
+                "<",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "txtPlanet",
+                "Draggable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"WaktuMulai\"",
+                ">=",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "txtPlanet",
+                "Draggable",
+                "yes"
               ]
             }
           ]
@@ -35425,20 +37495,144 @@
                     "1",
                     ""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Tween",
+                    "\"Keluar2\""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Keluar2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"Keluar2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
                     "IkonBabak3",
                     "Tween",
-                    "\"\"",
-                    "0.8",
-                    "\"easeInQuint\"",
+                    "\"Masuk\"",
+                    "200",
+                    "\"easeOutQuad\"",
                     "1",
-                    "no",
-                    "no"
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "IkonBabak3",
+                    "Tween",
+                    "\"Keluar\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "IkonBabak3",
+                    "Tween",
+                    "\"Keluar\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnPilihanBabak",
+                    "800",
+                    "500",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnPilihanBabak",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ]
@@ -36529,6 +38723,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -36574,7 +38772,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737708195,
+        "zoomFactor": 0.3325387091250799,
         "windowMask": false
       },
       "objectsGroups": [
@@ -36785,8 +38983,8 @@
           "opacity": 0,
           "persistentUuid": "f83c3c08-5a07-4c4f-8cbd-48d167f35fa2",
           "width": 0,
-          "x": 165,
-          "y": 80,
+          "x": 175,
+          "y": 75,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36803,8 +39001,8 @@
           "opacity": 0,
           "persistentUuid": "890632f8-ad3c-4352-af81-fe0a69fa6ad0",
           "width": 0,
-          "x": 415,
-          "y": 80,
+          "x": 425,
+          "y": 75,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36821,8 +39019,8 @@
           "opacity": 0,
           "persistentUuid": "a300c417-132a-4613-acd9-e558f0a4526a",
           "width": 0,
-          "x": 415,
-          "y": 385,
+          "x": 425,
+          "y": 380,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36839,8 +39037,8 @@
           "opacity": 0,
           "persistentUuid": "14221594-1eb0-481c-9c50-78103dab980e",
           "width": 0,
-          "x": 165,
-          "y": 385,
+          "x": 175,
+          "y": 380,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36857,8 +39055,8 @@
           "opacity": 0,
           "persistentUuid": "e2b6274d-ace5-416d-b187-a60bf6210420",
           "width": 0,
-          "x": 665,
-          "y": 80,
+          "x": 675,
+          "y": 75,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36875,8 +39073,8 @@
           "opacity": 0,
           "persistentUuid": "9b35893d-05af-49d9-bd96-e7952f567d2e",
           "width": 0,
-          "x": 665,
-          "y": 385,
+          "x": 675,
+          "y": 380,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36893,8 +39091,8 @@
           "opacity": 0,
           "persistentUuid": "89eebb62-40e4-4415-8b20-1d356944d98e",
           "width": 0,
-          "x": 915,
-          "y": 80,
+          "x": 925,
+          "y": 75,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36911,8 +39109,8 @@
           "opacity": 0,
           "persistentUuid": "3ffb09d2-950c-4e7a-9496-cd38531b45b8",
           "width": 0,
-          "x": 915,
-          "y": 385,
+          "x": 925,
+          "y": 380,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -36965,6 +39163,22 @@
           "x": 361,
           "y": 725,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BoxKartuMemori",
+          "persistentUuid": "d3167d56-9aa3-470d-8339-bbead6527b20",
+          "width": 0,
+          "x": 173,
+          "y": -373,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38456,7 +40670,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Group 154.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 154.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38472,20 +40686,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 99,
-                            "y": 0
+                            "x": 57,
+                            "y": 36
                           },
                           {
                             "x": 358,
-                            "y": 0
+                            "y": 36
                           },
                           {
                             "x": 358,
-                            "y": 337
+                            "y": 295
                           },
                           {
-                            "x": 99,
-                            "y": 337
+                            "x": 57,
+                            "y": 295
                           }
                         ]
                       ]
@@ -38522,7 +40736,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Group 152.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 154 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38539,19 +40753,84 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 99
                           },
                           {
-                            "x": 227,
-                            "y": 0
+                            "x": 337,
+                            "y": 99
                           },
                           {
-                            "x": 227,
-                            "y": 421
+                            "x": 337,
+                            "y": 358
                           },
                           {
                             "x": 0,
-                            "y": 421
+                            "y": 358
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BoxKartuMemori",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 209.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 94,
+                            "y": 90
+                          },
+                          {
+                            "x": 832,
+                            "y": 90
+                          },
+                          {
+                            "x": 832,
+                            "y": 258
+                          },
+                          {
+                            "x": 94,
+                            "y": 258
                           }
                         ]
                       ]
@@ -38601,6 +40880,9 @@
           },
           {
             "objectName": "BatuBawah"
+          },
+          {
+            "objectName": "BoxKartuMemori"
           }
         ]
       },
@@ -38626,8 +40908,8 @@
                 "BatuAtas",
                 "Tween",
                 "\"Masuk\"",
-                "940",
-                "-10",
+                "925",
+                "-36",
                 "\"easeOutSine\"",
                 "1",
                 ""
@@ -38642,8 +40924,44 @@
                 "Tween",
                 "\"Masuk\"",
                 "0",
-                "310",
+                "362",
                 "\"easeOutSine\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "BoxKartuMemori",
+                "Tween",
+                "\"Swing1\"",
+                "200",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "BoxKartuMemori",
+                "Tween",
+                "\"Swing2\"",
+                "720",
+                "\"easeOutQuint\"",
                 "1",
                 ""
               ]
@@ -39021,6 +41339,109 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PasanganKartu",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Babak3Sudah",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Kartu"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Kartu",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BatuAtas",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BatuBawah",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -39107,6 +41528,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -39156,7 +41581,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1451328644553311,
+        "zoomFactor": 0.3325387091250778,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39227,6 +41652,105 @@
           "x": 190,
           "y": -433,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Unnamed",
+          "opacity": 0,
+          "persistentUuid": "fbaa7aad-7a3a-4df2-b4b0-9f34752b2c3e",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BadgeReward1",
+          "opacity": 0,
+          "persistentUuid": "4a5b209a-1e58-44a4-bda5-9b791fe36369",
+          "width": 0,
+          "x": 520,
+          "y": 225,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BadgeReward2",
+          "opacity": 0,
+          "persistentUuid": "837baf00-8d7e-48ce-9d5e-a3d3edcec848",
+          "width": 0,
+          "x": 225,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BadgeReward3",
+          "persistentUuid": "72f63e7e-0c15-4881-bbf3-cde38a12eb78",
+          "width": 0,
+          "x": 1280,
+          "y": -500,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BubbleMessage",
+          "persistentUuid": "10da7d9f-c9b0-4f9c-b6c0-550d1da9c285",
+          "width": 0,
+          "x": 406,
+          "y": -332,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dialog",
+          "persistentUuid": "e960234f-ce8e-4657-8aee-a4e3914dcea5",
+          "width": 0,
+          "x": 490,
+          "y": -280,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39323,7 +41847,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Group 208.png",
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 208.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39362,6 +41886,552 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Unnamed",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Unnamed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Unnamed",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Dialog",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Kini kamu resmi mendapat gelar Penjelajah Antariksa dengan Lencana Antariksa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 334,
+                            "y": 0
+                          },
+                          {
+                            "x": 334,
+                            "y": 107
+                          },
+                          {
+                            "x": 0,
+                            "y": 107
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Misi selesai, Astronot Muda! Kamu berhasil menjelajahi tata surya, mengenal planet-planet, dan lulus ujian luar angkasa..png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 334,
+                            "y": 0
+                          },
+                          {
+                            "x": 334,
+                            "y": 107
+                          },
+                          {
+                            "x": 0,
+                            "y": 107
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BubbleMessage",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 509,
+                            "y": 0
+                          },
+                          {
+                            "x": 509,
+                            "y": 244
+                          },
+                          {
+                            "x": 0,
+                            "y": 244
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BadgeReward1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "..\\..\\..\\Downloads\\Group 182",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 181.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 257,
+                            "y": 0
+                          },
+                          {
+                            "x": 257,
+                            "y": 257
+                          },
+                          {
+                            "x": 0,
+                            "y": 257
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BtnKembali",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 91.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 75,
+                            "y": 90
+                          },
+                          {
+                            "x": 424,
+                            "y": 90
+                          },
+                          {
+                            "x": 424,
+                            "y": 192
+                          },
+                          {
+                            "x": 75,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BadgeReward2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 5,
+              "LoopDuration": 8,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": true,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Star 13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 838,
+                            "y": 0
+                          },
+                          {
+                            "x": 838,
+                            "y": 720
+                          },
+                          {
+                            "x": 15,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BadgeReward3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 314 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 489,
+                            "y": 8
+                          },
+                          {
+                            "x": 489,
+                            "y": 485
+                          },
+                          {
+                            "x": 10,
+                            "y": 485
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -39372,6 +42442,27 @@
           },
           {
             "objectName": "BoxPlanetMisterius"
+          },
+          {
+            "objectName": "Dialog"
+          },
+          {
+            "objectName": "BubbleMessage"
+          },
+          {
+            "objectName": "BadgeReward1"
+          },
+          {
+            "objectName": "BadgeReward3"
+          },
+          {
+            "objectName": "BadgeReward2"
+          },
+          {
+            "objectName": "Unnamed"
+          },
+          {
+            "objectName": "BtnKembali"
           }
         ]
       },
@@ -39510,6 +42601,12 @@
                     "Tween",
                     "\"Swing1\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -39534,6 +42631,36 @@
                     "1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Unnamed",
+                    "Tween",
+                    "\"GantiScene\"",
+                    "255",
+                    "\"easeOutSine\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
                 }
               ]
             },
@@ -39545,10 +42672,59 @@
                     "value": "Tween::HasFinished"
                   },
                   "parameters": [
-                    "BoxPlanetMisterius",
+                    "Unnamed",
                     "Tween",
-                    "\"Swing2\""
+                    "\"GantiScene\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "Unnamed",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"KartuMemori\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Babak3Sudah",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -39562,15 +42738,187 @@
                 },
                 {
                   "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Unnamed",
+                    "Tween",
+                    "\"GantiScene\"",
+                    "0",
+                    "\"easeOutSine\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Robot",
+                    "-55",
+                    "720",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
-                    "Roket",
+                    "Robot",
                     "Tween",
-                    "\"Terbang\"",
-                    "-1000",
-                    "\"easeInQuint\"",
-                    "1.3",
+                    "\"Masuk\"",
+                    "360",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubbleMessage",
+                    "Tween",
+                    "\"Masuk\"",
+                    "280",
+                    "145",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Masuk\"",
+                    "370",
+                    "200",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BubbleMessage",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Muncul\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
                     ""
                   ]
                 },
@@ -39579,26 +42927,74 @@
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
-                    "Bintang",
+                    "Robot",
                     "Tween",
-                    "\"\"",
+                    "\"Keluar\"",
                     "720",
-                    "\"easeInOutQuart\"",
-                    "1.8",
+                    "\"easeOutQuad\"",
+                    "1",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
-                    "Landasan",
+                    "BubbleMessage",
                     "Tween",
-                    "\"\"",
-                    "720",
-                    "\"easeInOutQuart\"",
-                    "2.25",
+                    "\"Keluar\"",
+                    "585",
+                    "-345",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Keluar\"",
+                    "605",
+                    "-285",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Robot",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BadgeReward3",
+                    "Tween",
+                    "\"Masuk\"",
+                    "400",
+                    "110",
+                    "\"easeOutQuart\"",
+                    "1",
                     ""
                   ]
                 }
@@ -39612,10 +43008,111 @@
                     "value": "Tween::HasFinished"
                   },
                   "parameters": [
-                    "Roket",
+                    "BadgeReward3",
                     "Tween",
-                    "\"Terbang\""
+                    "\"Masuk\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BadgeReward3",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BadgeReward2",
+                    "Tween",
+                    "\"\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "BadgeReward1",
+                    "Tween",
+                    "\"\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DapatLencana",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BadgeReward3",
+                    "Tween",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BadgeReward2",
+                    "Tween",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BadgeReward1",
+                    "Tween",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -39624,24 +43121,176 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.2"
+                    "3"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetBooleanVariable"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "PlanetSudah[3]",
-                    "True",
+                    "BadgeReward2",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "PopScene"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
+                    "BadgeReward1",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnKembali",
+                    "410",
+                    "450",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnKembali",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Roket",
+                    "Tween",
+                    "\"Hilang\"",
+                    "-1000",
+                    "\"easeInQuint\"",
+                    "1.3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Bintang",
+                    "Tween",
+                    "\"Hilang\"",
+                    "720",
+                    "\"easeInOutQuart\"",
+                    "1.8",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Landasan",
+                    "Tween",
+                    "\"Hilang\"",
+                    "1000",
+                    "\"easeInOutQuart\"",
+                    "2.25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "BtnKembali",
+                    "Tween",
+                    "\"\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnKembali",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Roket",
+                    "Tween",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Bintang",
+                    "Tween",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Landasan",
+                    "Tween",
+                    "\"\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"HomePage\"",
                     ""
                   ]
                 }
@@ -39733,6 +43382,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
         },
         {
           "name": "Flippable",

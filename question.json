@@ -17,9 +17,9 @@
       "id": 2,
       "question": "Planet manakah yang paling dekat dengan Matahari?",
       "options": [
-        "Merkurius",
         "Neptunus",
         "Venus",
+        "Merkurius",
         "Uranus"
       ],
       "correct_answer": "Merkurius"
@@ -39,9 +39,9 @@
       "id": 4,
       "question": "Planet terbesar di tata surya adalah?",
       "options": [
-        "Jupiter",
-        "Mars",
         "Venus",
+        "Mars",
+        "Jupiter",
         "Bumi"
       ],
       "correct_answer": "Jupiter"
@@ -50,10 +50,10 @@
       "id": 5,
       "question": "Planet terdingin di tata surya?",
       "options": [
-        "Uranus",
+        "Bumi",
         "Mars",
         "Jupiter",
-        "Bumi"
+        "Uranus"
       ],
       "correct_answer": "Uranus"
     },
@@ -61,9 +61,9 @@
       "id": 6,
       "question": "Planet yang sering disebut 'kembaran Bumi' karena ukurannya hampir sama?",
       "options": [
+        "Uranus",
         "Venus",
         "Jupiter",
-        "Uranus",
         "Bumi"
       ],
       "correct_answer": "Venus"
@@ -83,10 +83,10 @@
       "id": 8,
       "question": "Planet dengan satelit bernama Phobos dan Deimos?",
       "options": [
-        "Mars",
         "Venus",
         "Saturnus",
-        "Uranus"
+        "Uranus",
+        "Mars"
       ],
       "correct_answer": "Mars"
     },
@@ -116,9 +116,9 @@
       "id": 11,
       "question": "Bumi memiliki satelit alami bernama?",
       "options": [
-        "Bulan",
         "Europa",
         "Titan",
+        "Bulan",
         "Ganon"
       ],
       "correct_answer": "Bulan"
@@ -127,10 +127,10 @@
       "id": 12,
       "question": "Planet dengan suhu terpanas adalah",
       "options": [
+        "Mars",
         "Venus",
         "Merkurius",
-        "Bumi",
-        "Mars"
+        "Bumi"
       ],
       "correct_answer": "Venus"
     },
@@ -160,9 +160,9 @@
       "id": 15,
       "question": "Planet paling jauh dari matahari adalah?",
       "options": [
+        "Jupiter",
         "Neptunus",
         "Mars",
-        "Jupiter",
         "Venus"
       ],
       "correct_answer": "Neptunus"
