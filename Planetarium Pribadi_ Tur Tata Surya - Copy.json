@@ -2977,6 +2977,38 @@
         "name": "_",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Waktu terus berjalan! Fokus, Astronot!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Waktu terus berjalan! Fokus, Astronot!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Luar biasa! Kamu menjawab dengan tepat!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Luar biasa! Kamu menjawab dengan tepat!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 91.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Rectangle 97 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 97 (1).png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12114,7 +12146,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Waktu terus berjalan! Fokus, Astronot!.png",
+                      "image": "Waktu terus berjalan! Fokus, Astronot!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12162,7 +12194,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Luar biasa! Kamu menjawab dengan tepat!.png",
+                      "image": "Luar biasa! Kamu menjawab dengan tepat!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12408,7 +12440,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Rectangle 97 (1).png",
+                      "image": "Rectangle 97 (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12514,7 +12546,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gdev_Eduspace\\PlanetariumPribadiTurTataSurya\\Group 91.png",
+                      "image": "Group 91.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12725,6 +12757,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
