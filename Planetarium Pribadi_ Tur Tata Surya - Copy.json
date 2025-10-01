@@ -2069,6 +2069,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Group 317.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 317.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salah.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Salah",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3088,7 +3104,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.06768546898536093,
+        "zoomFactor": 0.07989336811496511,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3220,6 +3236,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Roket",
+                "Animation",
+                "=",
+                "RoketSekarang"
+              ]
+            },
             {
               "type": {
                 "value": "PlaySoundCanal"
@@ -4989,15 +5016,15 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
                 "bgm main menu - planetarium pribadi.wav",
                 "1",
                 "yes",
-                "",
-                ""
+                "100",
+                "1"
               ]
             },
             {
@@ -6300,6 +6327,14 @@
                     "no",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.35"
                   ]
                 },
                 {
@@ -7677,6 +7712,14 @@
             },
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -7713,6 +7756,14 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
               ]
             },
             {
@@ -7900,6 +7951,12 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -7928,18 +7985,82 @@
                     "=",
                     "1"
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "Roket",
-                    "Animation",
-                    "=",
-                    "1"
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak1Sudah",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Roket",
+                        "Animation",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak1Sudah",
+                        "False",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Roket",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -7956,18 +8077,82 @@
                     "=",
                     "2"
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "Roket",
-                    "Animation",
-                    "=",
-                    "4"
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak2Sudah",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Roket",
+                        "Animation",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak2Sudah",
+                        "False",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Roket",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -8332,6 +8517,17 @@
                   },
                   "parameters": [],
                   "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Roket",
+                        "Animation",
+                        "=",
+                        "0"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::Index"
@@ -9490,6 +9686,9 @@
             },
             {
               "name": "Btn_BabakMisterius"
+            },
+            {
+              "name": "Btn_HomePage"
             }
           ]
         }
@@ -9523,12 +9722,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Atas",
           "persistentUuid": "088b809c-d853-46a3-a9ce-5490cc42b28a",
           "width": 0,
           "x": 0,
-          "y": 0,
+          "y": -135,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9540,12 +9738,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "locked": true,
           "name": "Bawah",
           "persistentUuid": "e9a70e3a-d819-4829-990d-d44d4f83eb26",
           "width": 0,
           "x": 0,
-          "y": 585,
+          "y": 720,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9559,6 +9756,7 @@
           "layer": "",
           "locked": true,
           "name": "Btn_Mulai",
+          "opacity": 0,
           "persistentUuid": "0b5669ef-0a94-4f60-ae08-1a88edb5f4d2",
           "width": 0,
           "x": 455,
@@ -9576,6 +9774,7 @@
           "layer": "",
           "locked": true,
           "name": "Btn_Babak1",
+          "opacity": 0,
           "persistentUuid": "d8249f30-f4a1-4ffe-a49b-4f7616a787af",
           "width": 0,
           "x": 25,
@@ -9592,6 +9791,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Btn_Babak2",
+          "opacity": 0,
           "persistentUuid": "8cdecc41-3759-48a7-a531-e46c8b5cefd3",
           "width": 0,
           "x": 375,
@@ -9608,6 +9808,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Btn_Babak3",
+          "opacity": 0,
           "persistentUuid": "69ee2dc4-ab76-49e6-8159-3586f52729bb",
           "width": 0,
           "x": 730,
@@ -9625,6 +9826,7 @@
           "layer": "",
           "locked": true,
           "name": "Btn_BabakMisterius",
+          "opacity": 0,
           "persistentUuid": "912dc49a-00ba-4e4a-bb47-458bd76a7b4e",
           "width": 0,
           "x": 1080,
@@ -9643,6 +9845,7 @@
           "layer": "",
           "locked": true,
           "name": "___",
+          "opacity": 0,
           "persistentUuid": "b0f1eb27-a877-4f1b-83b9-6c54588d9d77",
           "width": 155,
           "x": 560,
@@ -9661,6 +9864,7 @@
           "layer": "",
           "locked": true,
           "name": "___",
+          "opacity": 0,
           "persistentUuid": "4c229b49-84cb-4b36-b616-dee0506a86c9",
           "width": 155,
           "x": 206,
@@ -9679,6 +9883,7 @@
           "layer": "",
           "locked": true,
           "name": "___",
+          "opacity": 0,
           "persistentUuid": "22579cf7-e8b1-4a7b-baa0-c26606aacf74",
           "width": 155,
           "x": 915,
@@ -9805,6 +10010,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Btn_HomePage",
+          "opacity": 0,
+          "persistentUuid": "41b9dc78-3a5f-4c1d-88e8-8ca522177f02",
+          "width": 0,
+          "x": 15,
+          "y": 590,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9816,7 +10038,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "..\\..\\Downloads\\Group 24",
@@ -9877,7 +10104,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -10736,6 +10968,10 @@
               "MovementAngle": 0,
               "OldX": 2.0247e-320,
               "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -11077,6 +11313,96 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Btn_HomePage",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 317.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 125,
+                            "y": 0
+                          },
+                          {
+                            "x": 125,
+                            "y": 122
+                          },
+                          {
+                            "x": 0,
+                            "y": 122
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11111,6 +11437,9 @@
           },
           {
             "objectName": "Unnamed"
+          },
+          {
+            "objectName": "Btn_HomePage"
           }
         ]
       },
@@ -11130,11 +11459,58 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Roket",
+                "Animation",
+                "=",
+                "RoketSekarang"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Atas",
+                "Tween",
+                "\"Masuk\"",
+                "0",
+                "\"easeInOutSine\"",
+                "0.8",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Bawah",
+                "Tween",
+                "\"Masuk\"",
+                "585",
+                "\"easeInOutSine\"",
+                "0.8",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.15"
               ]
             },
             {
@@ -11185,7 +11561,7 @@
                 "300",
                 "230",
                 "\"easeInOutSine\"",
-                "1",
+                "1.5",
                 ""
               ]
             }
@@ -11216,6 +11592,34 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "button",
+                "Tween",
+                "\"Muncul\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "___",
+                "Tween",
+                "\"Muncul\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -11334,6 +11738,20 @@
                 "ButtonFSM",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Btn_HomePage",
+                "Tween",
+                "\"Hilang\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
             }
           ]
         },
@@ -11361,6 +11779,65 @@
                 "button",
                 "ButtonFSM",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Btn_HomePage",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Btn_HomePage",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button kembali - planetarium pribadi.wav",
+                "2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"HomePage\"",
+                ""
               ]
             }
           ]
@@ -12492,36 +12969,6 @@
                         "=",
                         "\"BelumPilih\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_Babak1",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_Babak2",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_BabakMisterius",
-                        "ButtonFSM",
-                        ""
-                      ]
                     }
                   ]
                 },
@@ -12561,43 +13008,12 @@
                         "=",
                         "\"SudahPilih\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_Babak1",
-                        "ButtonFSM",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_Babak2",
-                        "ButtonFSM",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Btn_BabakMisterius",
-                        "ButtonFSM",
-                        "yes"
-                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12623,10 +13039,40 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_Babak1",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_Babak2",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_BabakMisterius",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12652,7 +13098,38 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_Babak1",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_Babak2",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Btn_BabakMisterius",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12739,13 +13216,12 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Btn_BabakMisterius",
-                    "Animation",
-                    "!=",
-                    "\"!DiKlik\""
+                    "Babak3Sudah",
+                    "True",
+                    ""
                   ]
                 }
               ],
@@ -17093,6 +17569,17 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Roket",
+                "Animation",
+                "=",
+                "RoketSekarang"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -19260,7 +19747,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857303,
+        "zoomFactor": 0.4194339782759067,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19748,7 +20235,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -20662,7 +21149,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -21577,7 +22064,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -22492,7 +22979,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -23407,7 +23894,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -24322,7 +24809,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -25237,7 +25724,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -26152,7 +26639,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -30933,6 +31420,17 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Roket",
+                "Animation",
+                "=",
+                "RoketSekarang"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -34036,7 +34534,7 @@
           "persistentUuid": "a30f8ed3-3856-497d-9897-2f519936a0cf",
           "width": 0,
           "x": 320,
-          "y": -10,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -34052,7 +34550,7 @@
           "persistentUuid": "a5d3bf04-fc17-4a2a-956a-9fa59dcf0b9b",
           "width": 0,
           "x": 530,
-          "y": 8,
+          "y": 18,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -34068,7 +34566,7 @@
           "persistentUuid": "2fc756c0-74c4-46ed-9e20-138d6f0bc4e0",
           "width": 0,
           "x": 415,
-          "y": 92,
+          "y": 102,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -34100,7 +34598,7 @@
           "persistentUuid": "553b2866-4df0-4f96-8735-c04a9a55ec55",
           "width": 0,
           "x": 560,
-          "y": 200,
+          "y": 720,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -34133,7 +34631,7 @@
           "opacity": 0,
           "persistentUuid": "c3c5ffb6-9ca4-4108-b4ae-f947f81ae89d",
           "width": 0,
-          "x": 390,
+          "x": 320,
           "y": 290,
           "zOrder": 19,
           "numberProperties": [],
@@ -34341,8 +34839,8 @@
           "name": "NewSprite",
           "persistentUuid": "c6096466-0ffa-4fd8-84a3-0c14ffcb4fb3",
           "width": 0,
-          "x": 1,
-          "y": -5,
+          "x": 0,
+          "y": 0,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -35830,11 +36328,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Waktu terus berjalan! Fokus, Astronot!.png",
+                      "image": "Salah",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -35850,20 +36349,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 0
+                            "x": 84,
+                            "y": 2
                           },
                           {
-                            "x": 550,
-                            "y": 0
+                            "x": 633,
+                            "y": 2
                           },
                           {
-                            "x": 550,
-                            "y": 148
+                            "x": 633,
+                            "y": 150
                           },
                           {
-                            "x": 1,
-                            "y": 148
+                            "x": 84,
+                            "y": 150
                           }
                         ]
                       ]
@@ -35898,20 +36397,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 0
+                            "x": 84,
+                            "y": 2
                           },
                           {
-                            "x": 550,
-                            "y": 0
+                            "x": 633,
+                            "y": 2
                           },
                           {
-                            "x": 550,
-                            "y": 148
+                            "x": 633,
+                            "y": 150
                           },
                           {
-                            "x": 1,
-                            "y": 148
+                            "x": 84,
+                            "y": 150
                           }
                         ]
                       ]
@@ -36445,7 +36944,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -36458,6 +36956,27 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Salah_Benar",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Roket",
+                    "Animation",
+                    "=",
+                    "RoketSekarang"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -36527,6 +37046,20 @@
                     "\"Hilang\"",
                     "0",
                     "\"easeOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "RoketQuiz",
+                    "Tween",
+                    "\"\"",
+                    "200",
+                    "\"easeOutQuad\"",
                     "1",
                     ""
                   ]
@@ -36856,6 +37389,12 @@
                     "Tween",
                     "\"Masuk\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -37480,6 +38019,12 @@
                     "=",
                     "10"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -37753,14 +38298,19 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "Tween::HasFinished"
                   },
                   "parameters": [
-                    "",
-                    "\"Countdown\"",
-                    ">",
-                    "1"
+                    "RoketQuiz",
+                    "Tween",
+                    "\"\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -37784,21 +38334,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "TimerPaused"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Countdown\""
-                  ]
-                }
-              ],
-              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -38178,7 +38713,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25504554733543483,
+        "zoomFactor": 0.2725359896772939,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39110,7 +39645,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "Variable(RoketSekarang)"
+                    "RoketSekarang"
                   ]
                 },
                 {
@@ -42257,6 +42792,17 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Roket",
+                "Animation",
+                "=",
+                "RoketSekarang"
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
@@ -43002,9 +43548,147 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SoundAndMusic",
+      "name": "SoundAndMusic",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "ButtonObjectEffectTween",
+          "type": "ButtonStates::ButtonObjectEffectTween"
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "SoundAndMusic",
+      "name": "SoundAndMusic",
+      "events": []
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
