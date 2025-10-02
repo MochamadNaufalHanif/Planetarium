@@ -2085,6 +2085,114 @@
         "name": "Salah",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "button mulai di pilihan babak - planetarium pribadi2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button mulai di pilihan babak - planetarium pribadi2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level dicentang - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level dicentang - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 53.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bgm babak 1 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bgm babak 1 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button jelajah di babak 1 - planetarium pribadi.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button jelajah di babak 1 - planetarium pribadi.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet planet di babak 1 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet planet di babak 1 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button jelajah di babak 1 - planetarium pribadi2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button jelajah di babak 1 - planetarium pribadi2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "drag bubble nama planet di babak 2 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "drag bubble nama planet di babak 2 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban benar di babak 2 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban benar di babak 2 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban salah di babak 2 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban salah di babak 2 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2969,6 +3077,122 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BGM",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "BGM",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween",
+          "Scale": "Scale",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleScale": 1,
+          "FocusedScale": 1,
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "PressedScale": 0.95,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 5,
+          "LoopDuration": 2,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "IsChecked": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SFX",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "SFX",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween",
+          "Scale": "Scale",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleScale": 1,
+          "FocusedScale": 1,
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "PressedScale": 0.95,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 5,
+          "LoopDuration": 2,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "IsChecked": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2988,6 +3212,12 @@
       },
       {
         "objectName": "Ceklis"
+      },
+      {
+        "objectName": "BGM"
+      },
+      {
+        "objectName": "SFX"
       }
     ]
   },
@@ -3081,6 +3311,16 @@
       "name": "DapatLencana",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Sound",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Music",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3350,6 +3590,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -3642,8 +3889,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 64,
+          "customSize": false,
           "height": 64,
           "keepRatio": true,
           "layer": "Setting",
@@ -3659,8 +3905,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 64,
+          "customSize": false,
           "height": 64,
           "keepRatio": true,
           "layer": "Setting",
@@ -4666,72 +4911,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "BGM",
-          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-          "variant": "BGM",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 0,
-              "RadiusY": 5,
-              "LoopDuration": 2,
-              "InitialTurningLeft": false,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {
-            "IsChecked": false
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "SFX",
-          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-          "variant": "SFX",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 0,
-              "RadiusY": 5,
-              "LoopDuration": 2,
-              "InitialTurningLeft": false,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {
-            "IsChecked": false
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Lencana",
@@ -4966,12 +5145,6 @@
           {
             "folderName": "Setting",
             "children": [
-              {
-                "objectName": "BGM"
-              },
-              {
-                "objectName": "SFX"
-              },
               {
                 "objectName": "Setting"
               },
@@ -5614,113 +5787,62 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenToggled"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
                     "BGM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
-              "actions": [],
-              "events": [
+              "actions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-                      },
-                      "parameters": [
-                        "BGM",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "button switch to on - planetarium pribadi.wav.wav",
-                        "2",
-                        "no",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                      },
-                      "parameters": [
-                        "BGM",
-                        "yes",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "BGM2",
-                        "True",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button switch to off - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-                      },
-                      "parameters": [
-                        "BGM",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "button switch to off - planetarium pribadi.wav",
-                        "2",
-                        "no",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                      },
-                      "parameters": [
-                        "BGM",
-                        "no",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "BGM2",
-                        "False",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Music",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -5730,113 +5852,194 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenToggled"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button switch to on - planetarium pribadi.wav.wav",
+                    "2",
+                    "no",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Music",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
                   },
                   "parameters": [
                     "SFX",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
-              "actions": [],
-              "events": [
+              "actions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-                      },
-                      "parameters": [
-                        "SFX",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "button switch to on - planetarium pribadi.wav.wav",
-                        "2",
-                        "no",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                      },
-                      "parameters": [
-                        "SFX",
-                        "yes",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "SFX2",
-                        "True",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button switch to off - planetarium pribadi.wav",
+                    "2",
+                    "no",
+                    "100",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
-                      },
-                      "parameters": [
-                        "SFX",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "button switch to off - planetarium pribadi.wav",
-                        "2",
-                        "no",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                      },
-                      "parameters": [
-                        "SFX",
-                        "no",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "SFX2",
-                        "False",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sound",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button switch to on - planetarium pribadi.wav.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sound",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "False",
+                    ""
                   ]
                 }
               ]
@@ -6038,7 +6241,7 @@
                         "Lencana",
                         "Tween",
                         "\"Muncul\"",
-                        "125",
+                        "185",
                         "\"easeOutQuart\"",
                         "0.25",
                         ""
@@ -6348,6 +6551,13 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "SoundAndMusic"
             }
           ],
           "parameters": []
@@ -6489,7 +6699,7 @@
           "isLocked": false,
           "name": "Penghargaan",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -8150,7 +8360,7 @@
                         "Roket",
                         "Animation",
                         "=",
-                        "1"
+                        "3"
                       ]
                     }
                   ]
@@ -8742,6 +8952,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         },
         {
           "colorB": 228,
@@ -12111,11 +12328,9 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "Babak1Sudah",
-                    "True",
                     ""
                   ]
                 }
@@ -12123,25 +12338,194 @@
               "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Ceklis",
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "Distance"
+                        "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Ceklis",
-                        "Btn_Babak1",
-                        "100",
-                        "0"
+                        "Babak1Sudah",
+                        "True",
+                        ""
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Ceklis",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "Btn_Babak1",
+                            "100",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "level dicentang - planetarium pribadi.wav",
+                            "2",
+                            "",
+                            "100",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "SudahSelesai",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "SetBooleanObjectVariable"
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak2Sudah",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Ceklis",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "Btn_Babak2",
+                            "110",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "level dicentang - planetarium pribadi.wav",
+                            "2",
+                            "",
+                            "100",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "SudahSelesai",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Babak3Sudah",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Ceklis",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "Btn_Babak3",
+                            "110",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "level dicentang - planetarium pribadi.wav",
+                            "2",
+                            "",
+                            "100",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Ceklis",
+                            "SudahSelesai",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
                       },
                       "parameters": [
                         "Ceklis",
@@ -12150,131 +12534,19 @@
                         ""
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Babak2Sudah",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Ceklis",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Ceklis",
-                        "Btn_Babak2",
-                        "110",
-                        "0"
-                      ]
-                    }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "SetBooleanObjectVariable"
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
                       "parameters": [
                         "Ceklis",
-                        "SudahSelesai",
-                        "True",
-                        ""
+                        "Opacity",
+                        "=",
+                        "255"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Babak3Sudah",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Ceklis",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Ceklis",
-                        "Btn_Babak3",
-                        "110",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Ceklis",
-                        "SudahSelesai",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Ceklis",
-                    "SudahSelesai",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Ceklis",
-                    "Opacity",
-                    "=",
-                    "255"
                   ]
                 }
               ]
@@ -12304,7 +12576,6 @@
               "comment": "1"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12385,6 +12656,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+                        "2",
+                        "",
+                        "100",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -12568,6 +12852,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button mulai di pilihan babak - planetarium pribadi2.wav",
+                    "2",
+                    "",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PushScene"
                   },
                   "parameters": [
@@ -12681,6 +12978,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+                        "2",
+                        "",
+                        "100",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -12862,6 +13172,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button mulai di pilihan babak - planetarium pribadi2.wav",
+                    "2",
+                    "",
+                    "100",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -12989,6 +13312,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+                        "2",
+                        "",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
@@ -13170,6 +13506,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button mulai di pilihan babak - planetarium pribadi2.wav",
+                    "2",
+                    "",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "DebuggerTools::ConsoleLog"
                   },
                   "parameters": [
@@ -13292,6 +13641,19 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "saat level baru terbuka & icon lebih besar dibanding lvl lain - planetarium pribadi.wav",
+                        "2",
+                        "",
+                        "100",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -13506,6 +13868,13 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "SoundAndMusic"
             }
           ],
           "parameters": []
@@ -16390,7 +16759,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "PlanetariumPribadiTurTataSurya\\Babak2 - Copy\\Group 53.png",
+                      "image": "Group 53.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17569,6 +17938,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm babak 1 - planetarium pribadi.wav",
+                "1",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -17649,6 +18031,66 @@
                 "\"easeOutQuint\"",
                 "1",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[0]",
+                "Toggle",
+                "\"PlanetMerkurius\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[6]",
+                "Toggle",
+                "\"PlanetMerkurius\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[5]",
+                "Toggle",
+                "\"PlanetMerkurius\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[4]",
+                "Toggle",
+                "\"PlanetMerkurius\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[3]",
+                "Toggle",
+                "\"PlanetMerkurius\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlanetSudah[2]",
+                "Toggle",
+                "\"PlanetMerkurius\""
               ]
             }
           ]
@@ -18286,6 +18728,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "EnableLayerEffect"
                   },
                   "parameters": [
@@ -18424,6 +18879,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button X or close - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -18606,6 +19074,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -18664,6 +19145,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -18726,6 +19220,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -18784,6 +19291,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -18846,6 +19366,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -18904,6 +19437,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -18966,6 +19512,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
@@ -19024,6 +19583,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet planet di babak 1 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -19497,6 +20069,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -20386,6 +20965,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -20532,6 +21124,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -21300,6 +21899,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -21454,6 +22066,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -22215,6 +22834,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -22369,6 +23001,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -23130,6 +23769,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -23284,6 +23936,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -24199,6 +24858,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -24960,6 +25626,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -25114,6 +25793,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -25875,6 +26561,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -26029,6 +26728,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -26790,6 +27496,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button jelajah di babak 1 - planetarium pribadi2.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -26944,6 +27663,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -31824,6 +32550,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button X or close - planetarium pribadi.wav",
+                "2",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -32256,6 +32995,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "drag bubble nama planet di babak 2 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
@@ -32441,6 +33193,19 @@
                               "actions": [
                                 {
                                   "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                                   },
                                   "parameters": [
@@ -32472,6 +33237,19 @@
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -32507,6 +33285,19 @@
                               "actions": [
                                 {
                                   "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                                   },
                                   "parameters": [
@@ -32538,6 +33329,19 @@
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -32573,6 +33377,19 @@
                               "actions": [
                                 {
                                   "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                                   },
                                   "parameters": [
@@ -32604,6 +33421,19 @@
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -32639,6 +33469,19 @@
                               "actions": [
                                 {
                                   "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                                   },
                                   "parameters": [
@@ -32670,6 +33513,19 @@
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -32705,6 +33561,19 @@
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "jawaban salah di babak 2 - planetarium pribadi.wav",
+                                "2",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33316,6 +34185,13 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "SoundAndMusic"
             },
             {
               "disabled": true,
@@ -38570,6 +39446,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -40531,6 +41414,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -43430,6 +44320,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -43686,7 +44583,228 @@
     {
       "associatedLayout": "SoundAndMusic",
       "name": "SoundAndMusic",
-      "events": []
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "BGM2",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "BGM",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SFX2",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Sound",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Music",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Music",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RePlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [
@@ -54759,16 +55877,17 @@
                   ],
                   "animations": [
                     {
-                      "name": "Unchecked",
+                      "name": "Checkedchecked",
                       "useMultipleDirections": false,
                       "directions": [
                         {
                           "looping": false,
+                          "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Unchecked\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":68,\\\"width\\\":121,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABECAYAAAClHpo6AAAAAXNSR0IArs4c6QAAAxNJREFUeF7tnGFyozAMhWVob9B0j1ZywnZvtgm5QRLUIYUuw4RgWTax4PGrM7Wo9D5LFqbGEa7VK+BWHyECJEDewCQAZEDegAIbCBGZDMgbUGADISKTAXkDCkQM8fzvg11J5Jwj4jZ/uLt7+3NDTI64IXr987Voci36xyLqmc2tLnV1wym/2onAVL6nBx7mnzyi1Vk0x4oD6d7Rgqnc/U3GItmNV0e1Cyg8cz0UYUqS2YDsoX0/5FpX/SIrsBIOTQAakD0YXOs9/2+iPAwiDCl38dZqQJ4Bcj1V/NskR4AnuUUs0ID8QPVnZPDYnRigAfkh5AXWYI/U1oIG5AmRF2myPADfhiibMUC+I3TcZ2BfknPjHJW7zyBeQUZz7lj/fVZZPBAztGwD8mhG5pnFP062sIqARytAHkHONYt7N0OyGZAHkJNuWUZaw5qAt1iAPBA/9ywO7bQB2RpkIpKWbEDuIJ+Pey5c+vcPMao2IAeqaGE97kNrmOn13f/9MzK5U87Eetz5ykz0IviPEkAG5MDaZ9AMmWwQmtRlQJYqZnB8Du+OfWXDmuyrlLHtzKG7gBwI+XL4YFfY6EOlW5s2ogoEJzHDZohELcNjrTRf2PFSTDILzZd0Pe7fQytkWZfp5Vhxe1Yt50uaxYB8h2buJRuQI6RgU1dtRczzckTlm/xkRebF6TlaZ5nNgYBRrifmUFPv+WlnY6bmdUNUBh5eRyZPiJpTp+2IqVCcXwbkBytCFmVbUab70AB5Ztl/KmjnqHwLOzUxDAuQc4UcCTAaL0HzvmhGRyjRyGQB3OHQ5lRx6ofokG3LuXBQrucUGv3+fNpzkYJ0xPI8DgmQhZD74dH2uW8fdms/8STfyfJ1HZB9lZp8nu6+KSJUMkVZngpF6JpSkQ2Ynw/dF/qGynab4S+BO1Za2QBZq6ABe0A2AEnrIiBrFTRgD8gGIGldBGStggbsAdkAJK2LgKxV0IA9IBuApHURkLUKGrAHZAOQtC4CslZBA/aAbACS1kVA1ipowB6QDUDSugjIWgUN2AOyAUhaF78BZtvuRZOAjzcAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"On\"],\"name\":\"On\"}}",
                           "timeBetweenFrames": 0.08,
                           "sprites": [
                             {
                               "hasCustomCollisionMask": true,
-                              "image": "Rectangle 82.png",
+                              "image": "On",
                               "points": [],
                               "originPoint": {
                                 "name": "origine",
@@ -54807,17 +55926,16 @@
                       ]
                     },
                     {
-                      "name": "Checkedchecked",
+                      "name": "Unchecked",
                       "useMultipleDirections": false,
                       "directions": [
                         {
                           "looping": false,
-                          "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Unchecked\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":68,\\\"width\\\":121,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABECAYAAAClHpo6AAAAAXNSR0IArs4c6QAAAxNJREFUeF7tnGFyozAMhWVob9B0j1ZywnZvtgm5QRLUIYUuw4RgWTax4PGrM7Wo9D5LFqbGEa7VK+BWHyECJEDewCQAZEDegAIbCBGZDMgbUGADISKTAXkDCkQM8fzvg11J5Jwj4jZ/uLt7+3NDTI64IXr987Voci36xyLqmc2tLnV1wym/2onAVL6nBx7mnzyi1Vk0x4oD6d7Rgqnc/U3GItmNV0e1Cyg8cz0UYUqS2YDsoX0/5FpX/SIrsBIOTQAakD0YXOs9/2+iPAwiDCl38dZqQJ4Bcj1V/NskR4AnuUUs0ID8QPVnZPDYnRigAfkh5AXWYI/U1oIG5AmRF2myPADfhiibMUC+I3TcZ2BfknPjHJW7zyBeQUZz7lj/fVZZPBAztGwD8mhG5pnFP062sIqARytAHkHONYt7N0OyGZAHkJNuWUZaw5qAt1iAPBA/9ywO7bQB2RpkIpKWbEDuIJ+Pey5c+vcPMao2IAeqaGE97kNrmOn13f/9MzK5U87Eetz5ykz0IviPEkAG5MDaZ9AMmWwQmtRlQJYqZnB8Du+OfWXDmuyrlLHtzKG7gBwI+XL4YFfY6EOlW5s2ogoEJzHDZohELcNjrTRf2PFSTDILzZd0Pe7fQytkWZfp5Vhxe1Yt50uaxYB8h2buJRuQI6RgU1dtRczzckTlm/xkRebF6TlaZ5nNgYBRrifmUFPv+WlnY6bmdUNUBh5eRyZPiJpTp+2IqVCcXwbkBytCFmVbUab70AB5Ztl/KmjnqHwLOzUxDAuQc4UcCTAaL0HzvmhGRyjRyGQB3OHQ5lRx6ofokG3LuXBQrucUGv3+fNpzkYJ0xPI8DgmQhZD74dH2uW8fdms/8STfyfJ1HZB9lZp8nu6+KSJUMkVZngpF6JpSkQ2Ynw/dF/qGynab4S+BO1Za2QBZq6ABe0A2AEnrIiBrFTRgD8gGIGldBGStggbsAdkAJK2LgKxV0IA9IBuApHURkLUKGrAHZAOQtC4CslZBA/aAbACS1kVA1ipowB6QDUDSugjIWgUN2AOyAUhaF78BZtvuRZOAjzcAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"On\"],\"name\":\"On\"}}",
                           "timeBetweenFrames": 0.08,
                           "sprites": [
                             {
                               "hasCustomCollisionMask": true,
-                              "image": "On",
+                              "image": "Rectangle 82.png",
                               "points": [],
                               "originPoint": {
                                 "name": "origine",
@@ -54906,7 +56024,7 @@
                   "layer": "",
                   "name": "State",
                   "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
-                  "width": 64,
+                  "width": 118,
                   "x": 0,
                   "y": 0,
                   "zOrder": 1,
@@ -54954,16 +56072,17 @@
                   ],
                   "animations": [
                     {
-                      "name": "Unchecked",
+                      "name": "Checkedchecked",
                       "useMultipleDirections": false,
                       "directions": [
                         {
                           "looping": false,
+                          "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Unchecked\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":68,\\\"width\\\":121,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABECAYAAAClHpo6AAAAAXNSR0IArs4c6QAAAxNJREFUeF7tnGFyozAMhWVob9B0j1ZywnZvtgm5QRLUIYUuw4RgWTax4PGrM7Wo9D5LFqbGEa7VK+BWHyECJEDewCQAZEDegAIbCBGZDMgbUGADISKTAXkDCkQM8fzvg11J5Jwj4jZ/uLt7+3NDTI64IXr987Voci36xyLqmc2tLnV1wym/2onAVL6nBx7mnzyi1Vk0x4oD6d7Rgqnc/U3GItmNV0e1Cyg8cz0UYUqS2YDsoX0/5FpX/SIrsBIOTQAakD0YXOs9/2+iPAwiDCl38dZqQJ4Bcj1V/NskR4AnuUUs0ID8QPVnZPDYnRigAfkh5AXWYI/U1oIG5AmRF2myPADfhiibMUC+I3TcZ2BfknPjHJW7zyBeQUZz7lj/fVZZPBAztGwD8mhG5pnFP062sIqARytAHkHONYt7N0OyGZAHkJNuWUZaw5qAt1iAPBA/9ywO7bQB2RpkIpKWbEDuIJ+Pey5c+vcPMao2IAeqaGE97kNrmOn13f/9MzK5U87Eetz5ykz0IviPEkAG5MDaZ9AMmWwQmtRlQJYqZnB8Du+OfWXDmuyrlLHtzKG7gBwI+XL4YFfY6EOlW5s2ogoEJzHDZohELcNjrTRf2PFSTDILzZd0Pe7fQytkWZfp5Vhxe1Yt50uaxYB8h2buJRuQI6RgU1dtRczzckTlm/xkRebF6TlaZ5nNgYBRrifmUFPv+WlnY6bmdUNUBh5eRyZPiJpTp+2IqVCcXwbkBytCFmVbUab70AB5Ztl/KmjnqHwLOzUxDAuQc4UcCTAaL0HzvmhGRyjRyGQB3OHQ5lRx6ofokG3LuXBQrucUGv3+fNpzkYJ0xPI8DgmQhZD74dH2uW8fdms/8STfyfJ1HZB9lZp8nu6+KSJUMkVZngpF6JpSkQ2Ynw/dF/qGynab4S+BO1Za2QBZq6ABe0A2AEnrIiBrFTRgD8gGIGldBGStggbsAdkAJK2LgKxV0IA9IBuApHURkLUKGrAHZAOQtC4CslZBA/aAbACS1kVA1ipowB6QDUDSugjIWgUN2AOyAUhaF78BZtvuRZOAjzcAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"On\"],\"name\":\"On\"}}",
                           "timeBetweenFrames": 0.08,
                           "sprites": [
                             {
                               "hasCustomCollisionMask": true,
-                              "image": "Rectangle 82.png",
+                              "image": "On",
                               "points": [],
                               "originPoint": {
                                 "name": "origine",
@@ -55002,17 +56121,16 @@
                       ]
                     },
                     {
-                      "name": "Checkedchecked",
+                      "name": "Unchecked",
                       "useMultipleDirections": false,
                       "directions": [
                         {
                           "looping": false,
-                          "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Unchecked\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":68,\\\"width\\\":121,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABECAYAAAClHpo6AAAAAXNSR0IArs4c6QAAAxNJREFUeF7tnGFyozAMhWVob9B0j1ZywnZvtgm5QRLUIYUuw4RgWTax4PGrM7Wo9D5LFqbGEa7VK+BWHyECJEDewCQAZEDegAIbCBGZDMgbUGADISKTAXkDCkQM8fzvg11J5Jwj4jZ/uLt7+3NDTI64IXr987Voci36xyLqmc2tLnV1wym/2onAVL6nBx7mnzyi1Vk0x4oD6d7Rgqnc/U3GItmNV0e1Cyg8cz0UYUqS2YDsoX0/5FpX/SIrsBIOTQAakD0YXOs9/2+iPAwiDCl38dZqQJ4Bcj1V/NskR4AnuUUs0ID8QPVnZPDYnRigAfkh5AXWYI/U1oIG5AmRF2myPADfhiibMUC+I3TcZ2BfknPjHJW7zyBeQUZz7lj/fVZZPBAztGwD8mhG5pnFP062sIqARytAHkHONYt7N0OyGZAHkJNuWUZaw5qAt1iAPBA/9ywO7bQB2RpkIpKWbEDuIJ+Pey5c+vcPMao2IAeqaGE97kNrmOn13f/9MzK5U87Eetz5ykz0IviPEkAG5MDaZ9AMmWwQmtRlQJYqZnB8Du+OfWXDmuyrlLHtzKG7gBwI+XL4YFfY6EOlW5s2ogoEJzHDZohELcNjrTRf2PFSTDILzZd0Pe7fQytkWZfp5Vhxe1Yt50uaxYB8h2buJRuQI6RgU1dtRczzckTlm/xkRebF6TlaZ5nNgYBRrifmUFPv+WlnY6bmdUNUBh5eRyZPiJpTp+2IqVCcXwbkBytCFmVbUab70AB5Ztl/KmjnqHwLOzUxDAuQc4UcCTAaL0HzvmhGRyjRyGQB3OHQ5lRx6ofokG3LuXBQrucUGv3+fNpzkYJ0xPI8DgmQhZD74dH2uW8fdms/8STfyfJ1HZB9lZp8nu6+KSJUMkVZngpF6JpSkQ2Ynw/dF/qGynab4S+BO1Za2QBZq6ABe0A2AEnrIiBrFTRgD8gGIGldBGStggbsAdkAJK2LgKxV0IA9IBuApHURkLUKGrAHZAOQtC4CslZBA/aAbACS1kVA1ipowB6QDUDSugjIWgUN2AOyAUhaF78BZtvuRZOAjzcAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"On\"],\"name\":\"On\"}}",
                           "timeBetweenFrames": 0.08,
                           "sprites": [
                             {
                               "hasCustomCollisionMask": true,
-                              "image": "On",
+                              "image": "Rectangle 82.png",
                               "points": [],
                               "originPoint": {
                                 "name": "origine",
@@ -55101,7 +56219,7 @@
                   "layer": "",
                   "name": "State",
                   "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
-                  "width": 64,
+                  "width": 118,
                   "x": 0,
                   "y": 0,
                   "zOrder": 1,
