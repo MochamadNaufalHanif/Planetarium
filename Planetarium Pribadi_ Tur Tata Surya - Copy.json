@@ -2193,6 +2193,80 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "rocket landing - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "rocket landing - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level 3_Timer_CountDown.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Level 3_Timer_CountDown.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_EduspaceAssets/PlanetariumPribadi-TurTataSurya/Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali..png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._Gdev_EduspaceAssets_PlanetariumPribadi-TurTataSurya_Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali..png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 319.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 319.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban benar di babak 3 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban benar di babak 3 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet jawaban di babak 3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet jawaban di babak 3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban salah di babak 3 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban salah di babak 3 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3728,7 +3802,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702418,
+        "zoomFactor": 0.6244537826600055,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3949,7 +4023,12 @@
           "x": 0,
           "y": 0,
           "zOrder": 20,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -5232,12 +5311,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "BGM2",
-                    "True",
-                    ""
+                    "Sound",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -5247,9 +5326,19 @@
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
                   },
                   "parameters": [
-                    "BGM",
-                    "",
+                    "SFX",
+                    "no",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -5259,12 +5348,49 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "BGM2",
-                    "False",
+                    "Sound",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "SFX",
+                    "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Music",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -5278,32 +5404,15 @@
                     "no",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "EcrireFichierTxt"
                   },
                   "parameters": [
-                    "SFX2",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "",
-                    ""
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -5313,12 +5422,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "SFX2",
-                    "False",
-                    ""
+                    "Music",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -5328,9 +5437,19 @@
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
                   },
                   "parameters": [
-                    "SFX",
-                    "no",
+                    "BGM",
+                    "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -6551,16 +6670,16 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "SoundAndMusic"
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -13868,16 +13987,16 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "SoundAndMusic"
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "SoundAndMusic"
         }
       ],
       "layers": [
@@ -17938,15 +18057,22 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusicCanal"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "",
-                "bgm babak 1 - planetarium pribadi.wav",
-                "1",
-                "",
-                "100",
-                "1"
+                "Ikon",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "txt",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -18252,6 +18378,12 @@
                 "Tween",
                 "\"Masuk\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -18556,6 +18688,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -18696,11 +18829,51 @@
               "parameters": [
                 "Robot",
                 "Tween",
-                "\"Masuk\""
+                "\"Keluar\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm babak 1 - planetarium pribadi.wav",
+                "3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Ikon",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "txt",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -18712,6 +18885,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18865,6 +19039,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20819,6 +20994,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -21102,6 +21290,14 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetBooleanVariable"
@@ -21749,6 +21945,19 @@
                     "Animation",
                     "=",
                     "RoketSekarang"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -22688,6 +22897,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -23619,6 +23841,19 @@
                     "Animation",
                     "=",
                     "RoketSekarang"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -24558,6 +24793,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -25476,6 +25724,19 @@
                     "Animation",
                     "=",
                     "RoketSekarang"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -26415,6 +26676,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -27346,6 +27620,19 @@
                     "Animation",
                     "=",
                     "RoketSekarang"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "rocket landing - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -32141,6 +32428,12 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -32153,16 +32446,6 @@
                 "Animation",
                 "=",
                 "RoketSekarang"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "PetunjukTutup",
-                "ButtonFSM",
-                ""
               ]
             },
             {
@@ -32384,6 +32667,12 @@
                 ">=",
                 "9"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -32428,6 +32717,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "drag bubble nama planet di babak 2 - planetarium pribadi.wav",
+                "2",
+                "",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "EnableLayerEffect"
@@ -33037,18 +33339,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "txtPlanet",
-                        "-",
-                        "10000"
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -33172,6 +33463,16 @@
                                 "=",
                                 "0"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "txtPlanet",
+                                "-",
+                                "10000"
+                              ]
                             }
                           ],
                           "events": [
@@ -33188,22 +33489,15 @@
                                     "=",
                                     "\"Merkurius\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33217,6 +33511,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33234,22 +33541,15 @@
                                     "=",
                                     "\"Venus\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33263,6 +33563,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33280,22 +33593,15 @@
                                     "=",
                                     "\"Bumi\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33309,6 +33615,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33326,22 +33645,15 @@
                                     "=",
                                     "\"Mars\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33355,6 +33667,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33372,22 +33697,15 @@
                                     "=",
                                     "\"Jupiter\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33401,6 +33719,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33418,22 +33749,15 @@
                                     "=",
                                     "\"Saturnus\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33447,6 +33771,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33464,22 +33801,15 @@
                                     "=",
                                     "\"Uranus\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33493,6 +33823,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -33510,22 +33853,15 @@
                                     "=",
                                     "\"Neptunus\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySoundCanal"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
-                                    "2",
-                                    "",
-                                    "100",
-                                    "1"
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -33539,6 +33875,19 @@
                                     "\"easeOutQuad\"",
                                     "0.01",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "jawaban benar di babak 2 - planetarium pribadi.wav",
+                                    "2",
+                                    "",
+                                    "100",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -35397,6 +35746,11 @@
           "name": "Detik",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Kecepatan",
+          "type": "number",
+          "value": -0.8
         }
       ],
       "instances": [
@@ -35410,7 +35764,7 @@
           "persistentUuid": "a30f8ed3-3856-497d-9897-2f519936a0cf",
           "width": 0,
           "x": 320,
-          "y": 0,
+          "y": -10,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -35426,7 +35780,7 @@
           "persistentUuid": "a5d3bf04-fc17-4a2a-956a-9fa59dcf0b9b",
           "width": 0,
           "x": 530,
-          "y": 18,
+          "y": 10,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -35442,7 +35796,7 @@
           "persistentUuid": "2fc756c0-74c4-46ed-9e20-138d6f0bc4e0",
           "width": 0,
           "x": 415,
-          "y": 102,
+          "y": 95,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -35475,7 +35829,7 @@
           "width": 0,
           "x": 560,
           "y": 720,
-          "zOrder": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35753,6 +36107,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 721,
+          "layer": "",
+          "name": "Bintang2",
+          "persistentUuid": "88322428-2672-41db-8da7-ba39e2535c52",
+          "width": 1280,
+          "x": 2,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35780,6 +36150,10 @@
               "MovementAngle": 0,
               "OldX": 2.0247e-320,
               "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -36420,6 +36794,10 @@
               "MovementAngle": 0,
               "OldX": 2.0247e-320,
               "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "string": "00.01.00",
@@ -36528,58 +36906,6 @@
           "variables": [],
           "effects": [],
           "behaviors": [
-            {
-              "name": "SmoothCamera",
-              "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.9,
-              "RightwardSpeed": 0.9,
-              "UpwardSpeed": 0.9,
-              "DownwardSpeed": 0.9,
-              "FollowOnX": true,
-              "FollowOnY": true,
-              "FollowFreeAreaLeft": 0,
-              "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 0,
-              "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 0,
-              "CameraOffsetY": 0,
-              "CameraDelay": 0,
-              "ForecastTime": 0,
-              "ForecastHistoryDuration": 0,
-              "LogLeftwardSpeed": 2.0247e-320,
-              "LogRightwardSpeed": 2.0247e-320,
-              "LogDownwardSpeed": 2.0247e-320,
-              "LogUpwardSpeed": 2.0247e-320,
-              "DelayedCenterX": 2.0247e-320,
-              "DelayedCenterY": 2.0247e-320,
-              "ForecastHistoryMeanX": 2.0247e-320,
-              "ForecastHistoryMeanY": 2.0247e-320,
-              "ForecastHistoryVarianceX": 2.0247e-320,
-              "ForecastHistoryCovariance": 2.0247e-320,
-              "ForecastHistoryLinearA": 2.0247e-320,
-              "ForecastHistoryLinearB": 2.0247e-320,
-              "ForecastedX": 2.0247e-320,
-              "ForecastedY": 2.0247e-320,
-              "ProjectedNewestX": 2.0247e-320,
-              "ProjectedNewestY": 2.0247e-320,
-              "ProjectedOldestX": 2.0247e-320,
-              "ProjectedOldestY": 2.0247e-320,
-              "ForecastHistoryVarianceY": 2.0247e-320,
-              "Index": 2.0247e-320,
-              "CameraDelayCatchUpSpeed": 0,
-              "CameraExtraDelay": 2.0247e-320,
-              "WaitingSpeedXMax": 2.0247e-320,
-              "WaitingSpeedYMax": 2.0247e-320,
-              "WaitingEnd": 2.0247e-320,
-              "CameraDelayCatchUpDuration": 2.0247e-320,
-              "LeftwardSpeedMax": 9000,
-              "RightwardSpeedMax": 9000,
-              "UpwardSpeedMax": 9000,
-              "DownwardSpeedMax": 9000,
-              "OldX": 9000.000000007454,
-              "OldY": 9000.000000007454,
-              "IsCalledManually": false
-            },
             {
               "name": "Sway",
               "type": "Sway::Sway",
@@ -37475,6 +37801,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 55,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 6
+                          },
+                          {
+                            "x": 343,
+                            "y": 143
+                          },
+                          {
+                            "x": 55,
+                            "y": 143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -37754,6 +38129,137 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BtnUlangi",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 5,
+              "LoopDuration": 2,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 319.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 94,
+                            "y": 90
+                          },
+                          {
+                            "x": 327,
+                            "y": 90
+                          },
+                          {
+                            "x": 327,
+                            "y": 192
+                          },
+                          {
+                            "x": 94,
+                            "y": 192
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Bintang2",
+          "texture": "BINTANG KECIL3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -37761,6 +38267,9 @@
         "children": [
           {
             "objectName": "Unnamed"
+          },
+          {
+            "objectName": "Bintang2"
           },
           {
             "objectName": "JumlahBenar"
@@ -37796,6 +38305,9 @@
             "objectName": "BtnLanjutkan"
           },
           {
+            "objectName": "BtnUlangi"
+          },
+          {
             "objectName": "PilihanJawaban"
           },
           {
@@ -37821,6 +38333,23 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "Bintang2",
+                    "+",
+                    "Kecepatan"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -37829,6 +38358,12 @@
                   "parameters": [
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -37851,16 +38386,6 @@
                     "Animation",
                     "=",
                     "RoketSekarang"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "RoketQuiz",
-                    "SmoothCamera",
-                    "no"
                   ]
                 },
                 {
@@ -37903,17 +38428,6 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Dialog",
-                    "Animation",
-                    "=",
-                    "Random(1)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
@@ -37924,6 +38438,19 @@
                     "\"easeOutSine\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "roket terbang - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 },
                 {
@@ -38388,6 +38915,12 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -38445,6 +38978,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "jawaban salah di babak 3 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -38486,22 +39032,22 @@
                 },
                 {
                   "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"SALAH \"+Pilihan",
-                    "\"info\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
                     "Pilihan",
                     "=",
                     "\"0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"SALAH \"+Pilihan",
+                    "\"info\"",
+                    ""
                   ]
                 }
               ]
@@ -38527,6 +39073,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "jawaban benar di babak 3 - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -38581,12 +39140,12 @@
                 },
                 {
                   "type": {
-                    "value": "DebuggerTools::ConsoleLog"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "ButtonJawaban.JawabanBenar",
-                    "\"info\"",
-                    ""
+                    "Pilihan",
+                    "=",
+                    "\"0\""
                   ]
                 },
                 {
@@ -38611,12 +39170,12 @@
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "DebuggerTools::ConsoleLog"
                   },
                   "parameters": [
-                    "Pilihan",
-                    "=",
-                    "\"0\""
+                    "ButtonJawaban.JawabanBenar",
+                    "\"info\"",
+                    ""
                   ]
                 }
               ],
@@ -38942,6 +39501,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Animation",
+                    "=",
+                    "RandomInRange(0, 1)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
@@ -39030,6 +39600,15 @@
                   },
                   "parameters": [
                     "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "KotakJawaban",
+                    ""
                   ]
                 },
                 {
@@ -39157,6 +39736,87 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnUlangi",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"FadeOut\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1.25",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"FadeOut\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Babak3\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -39174,19 +39834,14 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Tween::HasFinished"
+                    "value": "CompareTimer"
                   },
                   "parameters": [
-                    "RoketQuiz",
-                    "Tween",
-                    "\"\""
+                    "",
+                    "\"Countdown\"",
+                    ">=",
+                    "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -39206,6 +39861,19 @@
                   "parameters": [
                     "Detik",
                     "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Level 3_Timer_CountDown.wav",
+                    "2",
+                    "",
+                    "100",
                     "1"
                   ]
                 }
@@ -39233,7 +39901,7 @@
                   "parameters": [
                     "Detik",
                     "=",
-                    "59"
+                    "10"
                   ]
                 },
                 {
@@ -39428,18 +40096,289 @@
                     "=",
                     "\"00.00.0\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Detik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "txtQuestions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "txtJawaban",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ABCD",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Unnamed",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "JumlahBenar",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
                     "Timer",
-                    "Text",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "KotakPertanyaan",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "PilihanJawaban",
+                    "Tween",
+                    "\"\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Kecepatan",
                     "=",
-                    "\"00.00.00\""
+                    "-6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "roket terbang - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "RoketQuiz",
+                    "Tween",
+                    "\"\"",
+                    "-500",
+                    "\"easeOutQuint\"",
+                    "2.25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Robot",
+                    "-55",
+                    "720",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\"",
+                    "360",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ButtonJawaban",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Masuk\"",
+                    "280",
+                    "145",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Masuk\"",
+                    "340",
+                    "170",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnKembali",
+                    "350",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BtnUlangi",
+                    "750",
+                    "450",
+                    ""
                   ]
                 }
               ]
@@ -39557,10 +40496,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
         },
         {
           "name": "Sway",
@@ -40548,11 +41483,11 @@
                   },
                   "parameters": [
                     "",
-                    "roket terbang - planetarium pribadi.wav",
+                    "rocket landing - planetarium pribadi.wav",
                     "2",
                     "",
-                    "",
-                    ""
+                    "100",
+                    "1"
                   ]
                 },
                 {
