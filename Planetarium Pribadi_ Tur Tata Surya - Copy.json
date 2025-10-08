@@ -2267,6 +2267,76 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "timer per 1 detik - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timer per 1 detik - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timer per 1 detik - planetarium pribadi-1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timer per 1 detik - planetarium pribadi-1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban salah di babak 3 - planetarium pribadi2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban salah di babak 3 - planetarium pribadi2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx pas babak selesai - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx pas babak selesai - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "bgm babak 2 - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bgm babak 2 - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx pas babak selesai - planetarium pribadi2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx pas babak selesai - planetarium pribadi2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "hint atau petunjuk button - planetarium pribadi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hint atau petunjuk button - planetarium pribadi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3308,93 +3378,104 @@
       "value": "0"
     },
     {
-      "name": "RoketSekarang",
-      "type": "number",
-      "value": 0
+      "name": "temp",
+      "type": "string",
+      "value": ""
     },
     {
-      "folded": true,
-      "name": "PlanetSudah",
-      "type": "array",
+      "name": "GameStorage",
+      "type": "structure",
       "children": [
         {
+          "name": "BGM2",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "Babak1Sudah",
           "type": "boolean",
           "value": false
         },
         {
+          "name": "Babak2Sudah",
           "type": "boolean",
           "value": false
         },
         {
+          "name": "Babak3Sudah",
           "type": "boolean",
           "value": false
         },
         {
+          "name": "DapatLencana",
           "type": "boolean",
           "value": false
         },
         {
+          "name": "Music",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PlanetMisteriusSudah",
           "type": "boolean",
           "value": false
         },
         {
-          "type": "boolean",
-          "value": false
+          "folded": true,
+          "name": "PlanetSudah",
+          "type": "array",
+          "children": [
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "type": "boolean",
+              "value": false
+            }
+          ]
         },
         {
-          "type": "boolean",
-          "value": false
+          "name": "RoketSekarang",
+          "type": "number",
+          "value": 0
         },
         {
+          "name": "SFX2",
           "type": "boolean",
-          "value": false
+          "value": true
+        },
+        {
+          "name": "Sound",
+          "type": "number",
+          "value": 0
         }
       ]
-    },
-    {
-      "name": "BGM2",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "SFX2",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Babak1Sudah",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Babak2Sudah",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Babak3Sudah",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "PlanetMisteriusSudah",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "DapatLencana",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Sound",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "Music",
-      "type": "number",
-      "value": 0
     }
   ],
   "layouts": [
@@ -5268,6 +5349,26 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlayMusicCanal"
               },
               "parameters": [
@@ -5314,7 +5415,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Sound",
+                    "GameStorage.Sound",
                     "=",
                     "1"
                   ]
@@ -5351,7 +5452,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Sound",
+                    "GameStorage.Sound",
                     "=",
                     "0"
                   ]
@@ -5364,80 +5465,6 @@
                   },
                   "parameters": [
                     "SFX",
-                    "yes",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystemLevel\"",
-                    "ToJSON(GameStorage)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Music",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "no",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystemLevel\"",
-                    "ToJSON(GameStorage)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Music",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "BGM",
                     "yes",
                     ""
                   ]
@@ -5949,7 +5976,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Music",
+                    "GameStorage.Music",
                     "=",
                     "0"
                   ]
@@ -5959,9 +5986,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "BGM2",
+                    "GameStorage.BGM2",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -6015,7 +6052,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Music",
+                    "GameStorage.Music",
                     "=",
                     "1"
                   ]
@@ -6025,9 +6062,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "BGM2",
+                    "GameStorage.BGM2",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -6080,7 +6127,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Sound",
+                    "GameStorage.Sound",
                     "=",
                     "0"
                   ]
@@ -6090,9 +6137,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "SFX2",
+                    "GameStorage.SFX2",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -6146,7 +6203,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Sound",
+                    "GameStorage.Sound",
                     "=",
                     "1"
                   ]
@@ -6156,9 +6213,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "SFX2",
+                    "GameStorage.SFX2",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -6523,7 +6590,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "DapatLencana",
+                    "GameStorage.DapatLencana",
                     "True",
                     ""
                   ]
@@ -6542,6 +6609,16 @@
                     "\"easeOutQuad\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -7922,6 +7999,36 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -8261,7 +8368,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "+",
                     "1"
                   ]
@@ -8276,7 +8383,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "=",
                     "0"
                   ]
@@ -8310,7 +8417,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "=",
                     "1"
                   ]
@@ -8332,7 +8439,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak1Sudah",
+                        "GameStorage.Babak1Sudah",
                         "True",
                         "0"
                       ]
@@ -8366,7 +8473,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak1Sudah",
+                        "GameStorage.Babak1Sudah",
                         "False",
                         "0"
                       ]
@@ -8402,7 +8509,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "=",
                     "2"
                   ]
@@ -8424,7 +8531,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak2Sudah",
+                        "GameStorage.Babak2Sudah",
                         "True",
                         "0"
                       ]
@@ -8458,7 +8565,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak2Sudah",
+                        "GameStorage.Babak2Sudah",
                         "False",
                         "0"
                       ]
@@ -8494,7 +8601,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     ">=",
                     "1"
                   ]
@@ -8554,7 +8661,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "<",
                     "1"
                   ]
@@ -8595,7 +8702,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "<",
                     "2"
                   ]
@@ -8636,7 +8743,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     ">=",
                     "2"
                   ]
@@ -9062,7 +9169,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "RoketSekarang",
+                    "GameStorage.RoketSekarang",
                     "-",
                     "1"
                   ]
@@ -11795,13 +11902,43 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Roket",
                 "Animation",
                 "=",
-                "RoketSekarang"
+                "GameStorage.RoketSekarang"
               ]
             },
             {
@@ -12201,7 +12338,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[0]",
+                        "GameStorage.PlanetSudah[0]",
                         "True",
                         ""
                       ]
@@ -12211,7 +12348,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[1]",
+                        "GameStorage.PlanetSudah[1]",
                         "True",
                         ""
                       ]
@@ -12221,7 +12358,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[2]",
+                        "GameStorage.PlanetSudah[2]",
                         "True",
                         ""
                       ]
@@ -12231,7 +12368,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[3]",
+                        "GameStorage.PlanetSudah[3]",
                         "True",
                         ""
                       ]
@@ -12241,7 +12378,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[4]",
+                        "GameStorage.PlanetSudah[4]",
                         "True",
                         ""
                       ]
@@ -12251,7 +12388,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[5]",
+                        "GameStorage.PlanetSudah[5]",
                         "True",
                         ""
                       ]
@@ -12261,7 +12398,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[6]",
+                        "GameStorage.PlanetSudah[6]",
                         "True",
                         ""
                       ]
@@ -12271,7 +12408,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "PlanetSudah[7]",
+                        "GameStorage.PlanetSudah[7]",
                         "True",
                         ""
                       ]
@@ -12291,7 +12428,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "Babak1Sudah",
+                    "GameStorage.Babak1Sudah",
                     "True",
                     ""
                   ]
@@ -12317,7 +12454,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Babak2Sudah",
+                    "GameStorage.Babak2Sudah",
                     "True",
                     ""
                   ]
@@ -12361,7 +12498,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Babak3Sudah",
+                    "GameStorage.Babak3Sudah",
                     "True",
                     ""
                   ]
@@ -12405,7 +12542,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Babak3Sudah",
+                    "GameStorage.Babak3Sudah",
                     "=",
                     ""
                   ]
@@ -12464,7 +12601,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak1Sudah",
+                        "GameStorage.Babak1Sudah",
                         "True",
                         ""
                       ]
@@ -12525,7 +12662,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak2Sudah",
+                        "GameStorage.Babak2Sudah",
                         "True",
                         ""
                       ]
@@ -12586,7 +12723,7 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Babak3Sudah",
+                        "GameStorage.Babak3Sudah",
                         "True",
                         ""
                       ]
@@ -13687,7 +13824,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Babak3Sudah",
+                    "GameStorage.Babak3Sudah",
                     "True",
                     ""
                   ]
@@ -18057,6 +18194,36 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -18083,7 +18250,7 @@
                 "Roket",
                 "Animation",
                 "=",
-                "RoketSekarang"
+                "GameStorage.RoketSekarang"
               ]
             },
             {
@@ -18157,66 +18324,6 @@
                 "\"easeOutQuint\"",
                 "1",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[0]",
-                "Toggle",
-                "\"PlanetMerkurius\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[6]",
-                "Toggle",
-                "\"PlanetMerkurius\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[5]",
-                "Toggle",
-                "\"PlanetMerkurius\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[4]",
-                "Toggle",
-                "\"PlanetMerkurius\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[3]",
-                "Toggle",
-                "\"PlanetMerkurius\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlanetSudah[2]",
-                "Toggle",
-                "\"PlanetMerkurius\""
               ]
             }
           ]
@@ -18494,7 +18601,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[0]",
+                    "GameStorage.PlanetSudah[0]",
                     "True",
                     ""
                   ]
@@ -18504,7 +18611,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[1]",
+                    "GameStorage.PlanetSudah[1]",
                     "True",
                     ""
                   ]
@@ -18514,7 +18621,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[2]",
+                    "GameStorage.PlanetSudah[2]",
                     "True",
                     ""
                   ]
@@ -18524,7 +18631,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[3]",
+                    "GameStorage.PlanetSudah[3]",
                     "True",
                     ""
                   ]
@@ -18534,7 +18641,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[4]",
+                    "GameStorage.PlanetSudah[4]",
                     "True",
                     ""
                   ]
@@ -18544,7 +18651,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[5]",
+                    "GameStorage.PlanetSudah[5]",
                     "True",
                     ""
                   ]
@@ -18554,7 +18661,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[6]",
+                    "GameStorage.PlanetSudah[6]",
                     "True",
                     ""
                   ]
@@ -18564,7 +18671,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[7]",
+                    "GameStorage.PlanetSudah[7]",
                     "True",
                     ""
                   ]
@@ -18609,6 +18716,19 @@
                 "value": "Wait"
               },
               "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "pencet planet di babak 1 - planetarium pribadi.wav",
+                "2",
+                "",
+                "100",
                 "1"
               ]
             },
@@ -18885,7 +19005,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18906,7 +19025,7 @@
                   },
                   "parameters": [
                     "",
-                    "button jelajah di babak 1 - planetarium pribadi.mp3",
+                    "hint atau petunjuk button - planetarium pribadi.wav",
                     "2",
                     "",
                     "100",
@@ -19005,7 +19124,7 @@
                         "735",
                         "620",
                         "\"easeOutQuad\"",
-                        "0.1",
+                        "0.2",
                         ""
                       ]
                     },
@@ -19812,7 +19931,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[0]",
+                    "GameStorage.PlanetSudah[0]",
                     "True",
                     ""
                   ]
@@ -19860,7 +19979,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[1]",
+                    "GameStorage.PlanetSudah[1]",
                     "True",
                     ""
                   ]
@@ -19908,7 +20027,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[2]",
+                    "GameStorage.PlanetSudah[2]",
                     "True",
                     ""
                   ]
@@ -19956,7 +20075,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[3]",
+                    "GameStorage.PlanetSudah[3]",
                     "True",
                     ""
                   ]
@@ -20004,7 +20123,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[4]",
+                    "GameStorage.PlanetSudah[4]",
                     "True",
                     ""
                   ]
@@ -20052,7 +20171,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[5]",
+                    "GameStorage.PlanetSudah[5]",
                     "True",
                     ""
                   ]
@@ -20100,7 +20219,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[6]",
+                    "GameStorage.PlanetSudah[6]",
                     "True",
                     ""
                   ]
@@ -20148,7 +20267,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[7]",
+                    "GameStorage.PlanetSudah[7]",
                     "True",
                     ""
                   ]
@@ -20983,13 +21102,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -21126,6 +21265,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -21303,9 +21455,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[0]",
+                    "GameStorage.PlanetSudah[0]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -21938,13 +22100,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -22081,6 +22263,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -22258,9 +22453,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[1]",
+                    "GameStorage.PlanetSudah[1]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -22886,13 +23091,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -23029,6 +23254,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -23206,9 +23444,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[2]",
+                    "GameStorage.PlanetSudah[2]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -23834,13 +24082,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -23977,6 +24245,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -24154,9 +24435,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[3]",
+                    "GameStorage.PlanetSudah[3]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -24782,13 +25073,43 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -24925,6 +25246,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -25089,7 +25423,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[4]",
+                    "GameStorage.PlanetSudah[4]",
                     "True",
                     ""
                   ]
@@ -25717,13 +26051,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -25860,6 +26214,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -26037,9 +26404,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[5]",
+                    "GameStorage.PlanetSudah[5]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -26665,13 +27042,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -26808,6 +27205,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -26985,9 +27395,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[6]",
+                    "GameStorage.PlanetSudah[6]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -27613,13 +28033,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -27756,6 +28196,19 @@
                     "\"easeOutQuint\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "bgm babak 1 - planetarium pribadi.wav",
+                    "3",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]
@@ -27933,9 +28386,19 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "PlanetSudah[7]",
+                    "GameStorage.PlanetSudah[7]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -32439,13 +32902,43 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Roket",
                 "Animation",
                 "=",
-                "RoketSekarang"
+                "GameStorage.RoketSekarang"
               ]
             },
             {
@@ -32723,7 +33216,7 @@
               },
               "parameters": [
                 "",
-                "drag bubble nama planet di babak 2 - planetarium pribadi.wav",
+                "hint atau petunjuk button - planetarium pribadi.wav",
                 "2",
                 "",
                 "100",
@@ -33388,7 +33881,7 @@
                             "Tmpt_PlanetT",
                             "",
                             "",
-                            "yes"
+                            "no"
                           ]
                         }
                       ],
@@ -34298,7 +34791,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "Babak2Sudah",
+                    "GameStorage.Babak2Sudah",
                     "True",
                     "1"
                   ]
@@ -34437,6 +34930,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx pas babak selesai - planetarium pribadi.wav",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
@@ -35715,7 +36221,7 @@
         {
           "name": "Counter",
           "type": "number",
-          "value": 0
+          "value": 1
         },
         {
           "name": "CounterOptions",
@@ -35856,7 +36362,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Layer",
           "name": "Salah_Benar",
           "opacity": 0,
           "persistentUuid": "c3c5ffb6-9ca4-4108-b4ae-f947f81ae89d",
@@ -37521,8 +38027,47 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
-          "behaviors": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            },
+            {
+              "name": "FlashOpacity",
+              "type": "Flash::FlashOpacity",
+              "Opacity": "Opacity",
+              "TweenBehavior": "Tween",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "TargetOpacity": 0,
+              "StartingOpacity": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Salah",
@@ -38348,7 +38893,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -38369,6 +38913,36 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
@@ -38385,7 +38959,7 @@
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -38978,11 +39552,31 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Flash::FlashOpacity::SetHalfPeriodTime"
+                  },
+                  "parameters": [
+                    "Salah_Benar",
+                    "FlashOpacity",
+                    "=",
+                    "0.5",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
-                    "jawaban salah di babak 3 - planetarium pribadi.wav",
+                    "jawaban salah di babak 3 - planetarium pribadi2.wav",
                     "2",
                     "",
                     "100",
@@ -39002,32 +39596,15 @@
                 },
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                    "value": "Flash::FlashOpacity::Flash"
                   },
                   "parameters": [
                     "Salah_Benar",
-                    "Opacity",
-                    "=",
-                    "255"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Salah_Benar",
-                    "Opacity",
-                    "=",
-                    "0"
+                    "FlashOpacity",
+                    "Tween",
+                    "1",
+                    "255",
+                    ""
                   ]
                 },
                 {
@@ -39038,16 +39615,6 @@
                     "Pilihan",
                     "=",
                     "\"0\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"SALAH \"+Pilihan",
-                    "\"info\"",
-                    ""
                   ]
                 }
               ]
@@ -39075,6 +39642,26 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Flash::FlashOpacity::SetHalfPeriodTime"
+                  },
+                  "parameters": [
+                    "Salah_Benar",
+                    "FlashOpacity",
+                    "=",
+                    "0.5",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -39099,32 +39686,15 @@
                 },
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                    "value": "Flash::FlashOpacity::Flash"
                   },
                   "parameters": [
                     "Salah_Benar",
-                    "Opacity",
-                    "=",
-                    "255"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Salah_Benar",
-                    "Opacity",
-                    "=",
-                    "0"
+                    "FlashOpacity",
+                    "Tween",
+                    "1",
+                    "255",
+                    ""
                   ]
                 },
                 {
@@ -39446,11 +40016,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "JumlahBenar",
-                    "Animation",
+                    "Counter",
                     "=",
                     "10"
                   ]
@@ -39672,6 +40241,16 @@
                     "450",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "GameStorage.Babak3Sudah",
+                    "True",
+                    ""
+                  ]
                 }
               ]
             },
@@ -39736,87 +40315,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "BtnUlangi",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewSprite",
-                    "0",
-                    "0",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "NewSprite",
-                    "Opacity",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "NewSprite",
-                    "Tween",
-                    "\"FadeOut\"",
-                    "255",
-                    "\"easeOutQuad\"",
-                    "1.25",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "NewSprite",
-                    "Tween",
-                    "\"FadeOut\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Babak3\"",
-                    ""
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -39870,7 +40368,7 @@
                   },
                   "parameters": [
                     "",
-                    "Level 3_Timer_CountDown.wav",
+                    "timer per 1 detik - planetarium pribadi-1.wav",
                     "2",
                     "",
                     "100",
@@ -39901,7 +40399,7 @@
                   "parameters": [
                     "Detik",
                     "=",
-                    "10"
+                    "59"
                   ]
                 },
                 {
@@ -40050,6 +40548,35 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "Text",
+                    "=",
+                    "\"00.00.0\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "Text",
+                    "=",
+                    "\"0\" + ToString(Jam) + \".\"+ \"0\" + ToString(Menit) + \".\" + \"00\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
@@ -40094,7 +40621,7 @@
                     "Timer",
                     "Text",
                     "=",
-                    "\"00.00.0\""
+                    "\"00.00.00\""
                   ]
                 },
                 {
@@ -40230,7 +40757,7 @@
                   "parameters": [
                     "Kecepatan",
                     "=",
-                    "-6"
+                    "-17"
                   ]
                 },
                 {
@@ -40282,6 +40809,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Kecepatan",
+                    "=",
+                    "-7.5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -40308,6 +40845,16 @@
                   },
                   "parameters": [
                     "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Kecepatan",
+                    "=",
+                    "-3.5"
                   ]
                 },
                 {
@@ -40378,6 +40925,99 @@
                     "BtnUlangi",
                     "750",
                     "450",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BtnUlangi",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"FadeOut\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1.25",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"FadeOut\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Babak3\"",
                     ""
                   ]
                 }
@@ -40454,6 +41094,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -40480,6 +41173,14 @@
         {
           "name": "EllipseMovement",
           "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect"
+        },
+        {
+          "name": "FlashOpacity",
+          "type": "Flash::FlashOpacity"
         },
         {
           "name": "Flippable",
@@ -41457,13 +42158,43 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystem\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "GameStorage"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
                     "Roket",
                     "Animation",
                     "=",
-                    "RoketSekarang"
+                    "GameStorage.RoketSekarang"
                   ]
                 },
                 {
@@ -41705,7 +42436,7 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Babak3Sudah",
+                    "GameStorage.Babak3Sudah",
                     "True",
                     ""
                   ]
@@ -42089,7 +42820,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "DapatLencana",
+                    "GameStorage.DapatLencana",
                     "True",
                     ""
                   ]
@@ -44617,13 +45348,43 @@
           "actions": [
             {
               "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystem\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Roket",
                 "Animation",
                 "=",
-                "RoketSekarang"
+                "GameStorage.RoketSekarang"
               ]
             },
             {
@@ -45146,16 +45907,6 @@
                 "0",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Babak3Sudah",
-                "True",
-                ""
-              ]
             }
           ],
           "events": [
@@ -45524,121 +46275,129 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BooleanVariable"
               },
               "parameters": [
+                "GameStorage.BGM2",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "BGM",
+                "no",
                 ""
               ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "GameStorage.BGM2",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "BGM2",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "BGM",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "GameStorage.SFX2",
+                "True",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "BGM2",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "BGM",
-                    "no",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "SFX",
+                "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "GameStorage.SFX2",
+                "False",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "SFX2",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "SFX2",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-                  },
-                  "parameters": [
-                    "SFX",
-                    "no",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "SFX",
+                "yes",
+                ""
               ]
             }
           ]
@@ -45651,7 +46410,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Sound",
+                "GameStorage.Sound",
                 "=",
                 "1"
               ]
@@ -45677,7 +46436,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Music",
+                "GameStorage.Music",
                 "=",
                 "1"
               ]
@@ -45712,7 +46471,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "Music",
+                "GameStorage.Music",
                 "=",
                 "0"
               ]
@@ -82827,6 +83586,3006 @@
             }
           ],
           "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian, Entropy, VegeTato",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "Flash object",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYXNoLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNywySDE3TDEzLjUsOUgxN0wxMCwyMlYxNEg3VjJNOSw0VjEySDEyVjE0LjY2TDE0LDExSDEwLjI0TDEzLjc2LDRIOVoiIC8+PC9zdmc+",
+      "name": "Flash",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
+      "shortDescription": "Make an object flash visibility (blink), color tint, object effect, or opacity (fade).",
+      "version": "1.4.0",
+      "description": [
+        "Make a 2D object flash for a period of time so that it alternates between two different states.",
+        "Includes the ability to flash visibility (blink), color tint, object effect, or opacity (fade).",
+        "",
+        "After adding a behavior to an object, you **trigger the effect** by using the **Flash action**.",
+        "",
+        "This can be used to:",
+        "- Let players know they are invincible after being hit",
+        "- Catch player attention on the interface (for instance a \"press start\" text)",
+        ""
+      ],
+      "origin": {
+        "identifier": "Flash",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "tween",
+        "flash",
+        "blink",
+        "visible",
+        "invisible",
+        "hit",
+        "damage",
+        "fade",
+        "effect",
+        "color",
+        "tint"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "q8ubdigLvIRXLxsJDDTaokO41mc2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Color tint applied to an object.",
+          "fullName": "Color tint applied to an object",
+          "functionType": "ExpressionAndCondition",
+          "name": "ColorTint",
+          "private": true,
+          "sentence": "Color tint applied to _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Return the color string for the tint applied to the object"
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "/** @type {gdjs.SpriteRuntimeObject} */\r",
+                "const tintedObject = objects[0];\r",
+                "const tint = tintedObject.getColor();\r",
+                "eventsFunctionContext.returnValue = tint;"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "color"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a color tint is applied to an object.",
+          "fullName": "Is a color tint applied to an object",
+          "functionType": "StringExpression",
+          "name": "IsTinted",
+          "private": true,
+          "sentence": "_PARAM1_ is color tinted",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Flash::ColorTint"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "\"255;255;255\"",
+                    "Object",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "color"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Toggle color tint between the starting tint and a given value.",
+          "fullName": "Toggle a color tint",
+          "functionType": "Action",
+          "name": "ToggleColorTint",
+          "private": true,
+          "sentence": "Toggle color tint _PARAM2_ on _PARAM1_",
+          "events": [
+            {
+              "colorB": 35,
+              "colorG": 166,
+              "colorR": 245,
+              "creationTime": 0,
+              "name": "Note: This function cannot be \"public\" until it properly handles objects without a starting color tint variable (NULL)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Swap between the starting tint and the given value",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::ColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "Object.VariableString(__FlashColor_StartingTint)",
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "ColorTint"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::ColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "Object.VariableString(__FlashColor_StartingTint)",
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.VariableString(__FlashColor_StartingTint)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Color tint",
+              "name": "ColorTint",
+              "type": "color"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Toggle object visibility.",
+          "fullName": "Toggle object visibility",
+          "functionType": "Action",
+          "name": "ToggleVisibility",
+          "private": true,
+          "sentence": "Toggle visibility of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Object",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
+          "fullName": "Flash visibility (blink)",
+          "name": "Flash",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::ToggleVisibility"
+                              },
+                              "parameters": [
+                                "",
+                                "Object",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Timer\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::Flash::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash (blink) visibility for a period of time.",
+              "fullName": "Flash visibility (blink)",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash (blink) for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::Flash::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::ToggleVisibility"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing visibility.",
+              "fullName": "Is object flashing visibility",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing visibility (blink) of an object.",
+              "fullName": "Stop flashing visibility (blink)",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing visibility of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Duration_Timer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period of the object (time the object is invisible).",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash visibility (blink) configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time the object is invisible)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period ",
+              "description": "Time that the object is invisible",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Make an object flash a color tint for a period of time.",
+          "fullName": "Flash color tint",
+          "name": "FlashColor",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Timer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::ToggleColorTint"
+                              },
+                              "parameters": [
+                                "",
+                                "Object",
+                                "TintColor",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashColor::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash a color tint for a period of time.",
+              "fullName": "Flash a color tint",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash the color tint _PARAM3_ for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__FlashColor_StartingTint",
+                        "=",
+                        "Flash::ColorTint(Object)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Flash::ToggleColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "NewColorTint",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TintColor",
+                        "=",
+                        "NewColorTint"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Color tint",
+                  "name": "NewColorTint",
+                  "type": "color"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing a color tint.",
+              "fullName": "Is object flashing a color tint",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing a color tint",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashColor::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing a color tint on an object.",
+              "fullName": "Stop flashing color tint",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing color tint _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.VariableString(__FlashColor_StartingTint)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash color tint configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "\"255;255;255\"",
+              "type": "String",
+              "label": "Tint color",
+              "hidden": true,
+              "name": "TintColor"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Flash opacity smoothly (fade) in a repeating loop.",
+          "fullName": "Flash opacity smothly (fade)",
+          "name": "FlashOpacity",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::AddObjectOpacityTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\"",
+                                "StartingOpacity",
+                                "\"easeInOutCubic\"",
+                                "1000 * HalfPeriodTime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::AddObjectOpacityTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\"",
+                                "TargetOpacity",
+                                "\"easeInOutCubic\"",
+                                "1000 * HalfPeriodTime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Opacity_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashOpacity::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash opacity smoothly (fade) in a repeating loop.",
+              "fullName": "Flash the opacity (fade)",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash opacity smoothly to _PARAM4_ in a loop for _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "StartingOpacity",
+                        "=",
+                        "Object.Opacity::Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToTargetOpacity\"",
+                        "NewTargetOpacity",
+                        "\"easeInOutCubic\"",
+                        "1000 * HalfPeriodTime",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Opacity_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetOpacity",
+                        "=",
+                        "NewTargetOpacity"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Tween behavior (required)",
+                  "name": "TweenBehavior",
+                  "supplementaryInformation": "Tween::TweenBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Target opacity",
+                  "name": "NewTargetOpacity",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing opacity.",
+              "fullName": "Is object flashing opacity",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing opacity",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing opacity of an object.",
+              "fullName": "Stop flashing opacity",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing opacity of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToTargetOpacity\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToStartingOpacity\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Opacity",
+                        "=",
+                        "StartingOpacity"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash opacity smothly (fade) configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Opacity capability",
+              "extraInformation": [
+                "OpacityCapability::OpacityBehavior"
+              ],
+              "choices": [],
+              "name": "Opacity"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Tween Behavior (required)",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "choices": [],
+              "name": "TweenBehavior"
+            },
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Target opacity (Range: 0 - 255)",
+              "description": "Opacity will fade between the starting value and a target value",
+              "hidden": true,
+              "name": "TargetOpacity"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Starting opacity",
+              "description": "Opacity will fade between the starting value and a target value",
+              "hidden": true,
+              "name": "StartingOpacity"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Make the object flash an effect for a period of time.",
+          "fullName": "Flash effect",
+          "name": "FlashEffect",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Timer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::FlashEffect::ToggleEffect"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "EffectName",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashEffect::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash an effect for a period of time.",
+              "fullName": "Flash an effect",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash the effect _PARAM3_ for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Stop flashing existing effects if the effect name changed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EffectName",
+                        "!=",
+                        "NewEffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashColor_StartingState",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashColor_StartingState",
+                            "False"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Flash::FlashEffect::ToggleEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "NewEffectName",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Flash_Effect_Timer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "IsFlashing",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EffectName",
+                        "=",
+                        "NewEffectName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Name of effect",
+                  "name": "NewEffectName",
+                  "type": "objectEffectName"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing an effect.",
+              "fullName": "Is object flashing an effect",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing an effect",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing an effect of an object.",
+              "fullName": "Stop flashing an effect",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing an effect on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Duration_Timer\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashEffect_StartingState",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "EffectName",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashEffect_StartingState",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "EffectName",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash effect configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Toggle an object effect.",
+              "fullName": "Toggle an object effect",
+              "functionType": "Action",
+              "name": "ToggleEffect",
+              "private": true,
+              "sentence": "Toggle effect _PARAM2_ on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Effect name to toggle",
+                  "name": "EffectName",
+                  "type": "objectEffectName"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Effect capability",
+              "extraInformation": [
+                "EffectCapability::EffectBehavior"
+              ],
+              "choices": [],
+              "name": "Effect"
+            },
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Name of effect",
+              "hidden": true,
+              "name": "EffectName"
+            }
+          ],
           "sharedPropertyDescriptors": []
         }
       ],
