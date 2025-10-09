@@ -1333,7 +1333,7 @@
       {
         "file": "assets/NewSprite8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
         "name": "NewSprite8",
         "smoothed": false,
         "userAdded": false
@@ -2336,6 +2336,46 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_EduspaceAssets/PlanetariumPribadi-TurTataSurya/Sekarang saatnya ujian terakhir, Astronot!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sekarang saatnya ujian terakhir, Astronot!.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._Gdev_EduspaceAssets_PlanetariumPribadi-TurTataSurya_Sekarang saatnya ujian terakhir, Astronot!.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sekarang saatnya ujian terakhir, Astronot!",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._Gdev_EduspaceAssets_PlanetariumPribadi-TurTataSurya_Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -8019,16 +8059,6 @@
             },
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"GameStorage\"",
-                "\"SavingSystemLevel\"",
-                "ToJSON(GameStorage)"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -8372,6 +8402,16 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
                 }
               ]
             },
@@ -8405,6 +8445,16 @@
                     "Animation",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -8462,6 +8512,16 @@
                         "=",
                         "2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 },
@@ -8495,6 +8555,16 @@
                         "Animation",
                         "=",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -8554,6 +8624,16 @@
                         "=",
                         "4"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 },
@@ -8587,6 +8667,16 @@
                         "Animation",
                         "=",
                         "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -9172,6 +9262,16 @@
                     "GameStorage.RoketSekarang",
                     "-",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -11922,16 +12022,6 @@
             },
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"GameStorage\"",
-                "\"SavingSystemLevel\"",
-                "ToJSON(GameStorage)"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -12443,6 +12533,16 @@
                     "=",
                     "\"!DiKlik/Terbuka\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
                 }
               ]
             },
@@ -12649,6 +12749,16 @@
                             "True",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"GameStorage\"",
+                            "\"SavingSystemLevel\"",
+                            "ToJSON(GameStorage)"
+                          ]
                         }
                       ]
                     }
@@ -12709,6 +12819,16 @@
                             "SudahSelesai",
                             "True",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"GameStorage\"",
+                            "\"SavingSystemLevel\"",
+                            "ToJSON(GameStorage)"
                           ]
                         }
                       ]
@@ -12771,6 +12891,16 @@
                             "True",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"GameStorage\"",
+                            "\"SavingSystemLevel\"",
+                            "ToJSON(GameStorage)"
+                          ]
                         }
                       ]
                     }
@@ -12801,6 +12931,16 @@
                         "Opacity",
                         "=",
                         "255"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -18214,16 +18354,6 @@
             },
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"GameStorage\"",
-                "\"SavingSystemLevel\"",
-                "ToJSON(GameStorage)"
-              ]
-            },
-            {
-              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -19966,6 +20096,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 }
@@ -20013,6 +20153,16 @@
                         "SudahSelesai",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -20062,6 +20212,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 }
@@ -20109,6 +20269,16 @@
                         "SudahSelesai",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -20158,6 +20328,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 }
@@ -20205,6 +20385,16 @@
                         "SudahSelesai",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
                       ]
                     }
                   ]
@@ -20254,6 +20444,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 }
@@ -20302,6 +20502,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"GameStorage\"",
+                        "\"SavingSystemLevel\"",
+                        "ToJSON(GameStorage)"
+                      ]
                     }
                   ]
                 }
@@ -20332,6 +20542,16 @@
                     "Opacity",
                     "=",
                     "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -25093,16 +25313,6 @@
                 },
                 {
                   "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystemLevel\"",
-                    "ToJSON(GameStorage)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
@@ -25426,6 +25636,16 @@
                     "GameStorage.PlanetSudah[4]",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -32922,16 +33142,6 @@
             },
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"GameStorage\"",
-                "\"SavingSystemLevel\"",
-                "ToJSON(GameStorage)"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -33635,6 +33845,16 @@
                     "YTerakhir",
                     "=",
                     "txtPlanet.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -34805,6 +35025,16 @@
                     "Animation",
                     "=",
                     "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 },
                 {
@@ -36183,7 +36413,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410363,
+        "zoomFactor": 0.40575189059438316,
         "windowMask": false
       },
       "objectsGroups": [
@@ -36262,16 +36492,17 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 160,
           "keepRatio": true,
           "layer": "",
           "name": "Unnamed",
           "persistentUuid": "a30f8ed3-3856-497d-9897-2f519936a0cf",
-          "width": 0,
+          "width": 702,
           "x": 320,
           "y": -10,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37796,7 +38027,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "aaaa",
+          "string": "",
           "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 50,
@@ -37819,7 +38050,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "aaaa",
+            "text": "",
             "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -37876,7 +38107,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Saturnus",
+          "string": "",
           "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -37899,7 +38130,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Saturnus",
+            "text": "",
             "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -37955,7 +38186,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "A",
+          "string": "",
           "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 70,
@@ -37978,7 +38209,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "A",
+            "text": "",
             "font": "PlanetariumPribadiTurTataSurya\\Font\\LondrinaSolid-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -38260,7 +38491,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu2",
+                      "image": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38276,19 +38507,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 55,
+                            "x": 62,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 143
                           },
                           {
-                            "x": 55,
+                            "x": 62,
                             "y": 143
                           }
                         ]
@@ -38309,7 +38540,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!2",
+                      "image": "..\\..\\..\\Downloads\\Selamat! Kamu berhasil menyelesaikan ujian astronot. Rute ke Planet Misterius sudah di tanganmu!",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38325,19 +38556,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 55,
+                            "x": 62,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 143
                           },
                           {
-                            "x": 55,
+                            "x": 62,
                             "y": 143
                           }
                         ]
@@ -38358,7 +38589,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.",
+                      "image": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sayang sekali, waktumu telah habis. Kamu bisa mengulang kembali.2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -38374,19 +38605,68 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 55,
+                            "x": 62,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 6
                           },
                           {
-                            "x": 343,
+                            "x": 350,
                             "y": 143
                           },
                           {
-                            "x": 55,
+                            "x": 62,
+                            "y": 143
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sekarang saatnya ujian terakhir, Astronot!",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\Gdev_EduspaceAssets\\PlanetariumPribadi-TurTataSurya\\Sekarang saatnya ujian terakhir, Astronot!",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 6
+                          },
+                          {
+                            "x": 350,
+                            "y": 6
+                          },
+                          {
+                            "x": 350,
+                            "y": 143
+                          },
+                          {
+                            "x": 62,
                             "y": 143
                           }
                         ]
@@ -38913,36 +39193,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ReadStringFromStorage"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystem\"",
-                    "",
-                    "temp"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "JSONToVariableStructure2"
-                  },
-                  "parameters": [
-                    "temp",
-                    "GameStorage"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystemLevel\"",
-                    "ToJSON(GameStorage)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
@@ -38975,15 +39225,6 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Countdown\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -39002,16 +39243,246 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Robot",
+                    "-55",
+                    "720",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\"",
+                    "360",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Masuk\"",
+                    "280",
+                    "145",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Masuk\"",
+                    "340",
+                    "170",
+                    "\"easeInOutSine\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Animation",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Muncul\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Keluar\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Keluar\"",
+                    "585",
+                    "-345",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Keluar\"",
+                    "605",
+                    "-285",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
                     "NewSprite",
                     "Tween",
-                    "\"Hilang\"",
+                    "\"HilangAWALAN\"",
                     "0",
                     "\"easeOutSine\"",
-                    "1",
+                    "2",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Countdown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
                   ]
                 },
                 {
@@ -39343,175 +39814,54 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Robot",
-                    "Tween",
-                    "\"Masuk\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "NewSprite",
-                    "Tween",
-                    "\"Masuk\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Robot",
-                    "Animation",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Dialog",
-                    "Tween",
-                    "\"Muncul\"",
-                    "255",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "Dialog",
-                    "Tween",
-                    "\"Hilang\"",
-                    "0",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Robot",
-                    "Tween",
-                    "\"Keluar\"",
-                    "720",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "BubleMessage",
-                    "Tween",
-                    "\"Keluar\"",
-                    "585",
-                    "-345",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "Dialog",
-                    "Tween",
-                    "\"Keluar\"",
-                    "605",
-                    "-285",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Robot",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "ButtonJawaban",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Pilihan",
-                    "=",
-                    "ButtonJawaban.JawabanBenar"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Logic Quiz"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonJawaban",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Pilihan",
+                "=",
+                "ButtonJawaban.JawabanBenar"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -39552,6 +39902,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Flash::FlashOpacity::SetHalfPeriodTime"
                   },
                   "parameters": [
@@ -39560,14 +39918,6 @@
                     "=",
                     "0.5",
                     "255"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.25"
                   ]
                 },
                 {
@@ -39642,6 +39992,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Flash::FlashOpacity::SetHalfPeriodTime"
                   },
                   "parameters": [
@@ -39650,14 +40008,6 @@
                     "=",
                     "0.5",
                     "255"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.25"
                   ]
                 },
                 {
@@ -40043,6 +40393,14 @@
                 },
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -40131,32 +40489,12 @@
                 },
                 {
                   "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Robot",
-                    "-55",
-                    "720",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
                     "Robot",
                     "Tween",
-                    "\"Masuk\"",
+                    "\"Masuk1\"",
                     "360",
                     "\"easeInOutSine\"",
                     "1",
@@ -40249,6 +40587,130 @@
                   "parameters": [
                     "GameStorage.Babak3Sudah",
                     "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Masuk1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Muncul\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Robot",
+                    "Tween",
+                    "\"Keluar\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubleMessage",
+                    "Tween",
+                    "\"Keluar\"",
+                    "585",
+                    "-345",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "Dialog",
+                    "Tween",
+                    "\"Keluar\"",
+                    "605",
+                    "-285",
+                    "\"easeOutQuad\"",
+                    "1",
                     ""
                   ]
                 }
@@ -42178,16 +42640,6 @@
                 },
                 {
                   "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"GameStorage\"",
-                    "\"SavingSystemLevel\"",
-                    "ToJSON(GameStorage)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
@@ -42823,6 +43275,16 @@
                     "GameStorage.DapatLencana",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"GameStorage\"",
+                    "\"SavingSystemLevel\"",
+                    "ToJSON(GameStorage)"
                   ]
                 }
               ]
@@ -45368,16 +45830,6 @@
             },
             {
               "type": {
-                "value": "EcrireFichierTxt"
-              },
-              "parameters": [
-                "\"GameStorage\"",
-                "\"SavingSystemLevel\"",
-                "ToJSON(GameStorage)"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -46300,6 +46752,16 @@
                 "no",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
             }
           ]
         },
@@ -46332,6 +46794,16 @@
                 "BGM",
                 "yes",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
               ]
             }
           ]
@@ -46366,6 +46838,16 @@
                 "no",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
             }
           ]
         },
@@ -46399,6 +46881,16 @@
                 "yes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
             }
           ]
         },
@@ -46424,6 +46916,16 @@
               "parameters": [
                 "",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
               ]
             }
           ]
@@ -46459,6 +46961,16 @@
               "parameters": [
                 "",
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
               ]
             }
           ]
@@ -46494,6 +47006,16 @@
               "parameters": [
                 "",
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
               ]
             }
           ]
