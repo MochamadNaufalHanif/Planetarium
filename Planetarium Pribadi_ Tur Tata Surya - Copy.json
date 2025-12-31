@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -2378,6 +2379,16 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "..\\..\\..\\Downloads\\Kamu bisa melanjutkan perjalanan menuju “Planet Misterius” atau kembali ke menu",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx pas babak selesai - planetarium pribadi3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx pas babak selesai - planetarium pribadi3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -18490,7 +18501,7 @@
               },
               "parameters": [
                 "",
-                "pencet planet di babak 1 - planetarium pribadi.wav",
+                "sfx pas babak selesai - planetarium pribadi3.wav",
                 "2",
                 "",
                 "100",
@@ -18518,23 +18529,23 @@
           "conditions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "IkonBabak",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::HasFinished"
               },
               "parameters": [
                 "IkonBabak",
                 "Tween",
                 "\"opacity0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "IkonBabak",
+                "Opacity",
+                "<=",
+                "0"
               ]
             },
             {
@@ -18554,7 +18565,7 @@
                 "Tween",
                 "\"Muncul\"",
                 "255",
-                "\"easeInQuad\"",
+                "\"easeOutQuad\"",
                 "0.5",
                 ""
               ]
@@ -18573,7 +18584,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
